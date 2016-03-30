@@ -1,6 +1,6 @@
 name: sks
 favicon: null
-layout_spectrum: 0.8827325894962996
+layout_spectrum: 0
 typography_spectrum: 0.4814200480468571
 cta:
   domain: null
@@ -16,12 +16,12 @@ opengraph:
   appId: null
 color:
   brandColors:
-    - '#E0FBFC'
-    - '#C2DFE3'
-    - '#9DB4C0'
-    - '#5C6B73'
-    - '#253237'
-  brandStrength: 0.1516068058554083
+    - '#ffffff'
+    - '#000000'
+    - '#666666'
+    - '#b50839'
+    - '#e6a9ba'
+  brandStrength: 1
   lightness: 0.4095861464738846
   saturation: 0.7044884478673339
   rhythmicContrast: 0.9417476847302169
