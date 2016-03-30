@@ -2,20 +2,13 @@
     <channel>
         <title><![CDATA[sks]]></title>
         <description><![CDATA[sks]]></description>
-        <link>https://thegrid.ai/sks/</link>
+        <link>http://github.com/dylang/node-rss</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Wed, 30 Mar 2016 00:16:57 GMT</lastBuildDate>
-        <atom:link href="https://thegrid.ai/sks/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Wed, 30 Mar 2016 00:16:56 GMT</lastBuildDate>
+        <atom:link href="undefinedrss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[No title]]></title>
-            <description><![CDATA[<p>South Kent School "Excellence for Boys"</p>]]></description>
-            <link>https://thegrid.ai/sks/south-kent-school-excellence-for-boys/index.html</link>
-            <guid isPermaLink="false">4e9acc84-8235-4103-9709-9f04642d6a7b</guid>
-            <pubDate>Wed, 30 Mar 2016 00:16:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[No title]]></title>
-            <link>https://thegrid.ai/sks/7876c429-5357-4081-8a70-cee94022c1e7/index.html</link>
+            <link>undefined7876c429-5357-4081-8a70-cee94022c1e7/index.html</link>
             <guid isPermaLink="false">7876c429-5357-4081-8a70-cee94022c1e7</guid>
             <pubDate>Wed, 30 Mar 2016 00:16:56 GMT</pubDate>
         </item>
