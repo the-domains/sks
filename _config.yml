@@ -36,6 +36,6 @@ color:
     - '#e6a9ba'
   brandStrength: 1
   lightness: 1
-  saturation: 0
+  saturation: 1
   rhythmicContrast: 0.9417476847302169
 purpose: []
