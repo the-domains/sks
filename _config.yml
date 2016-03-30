@@ -1,5 +1,8 @@
+name: sks
+favicon: null
+layout_spectrum: 1
+typography_spectrum: 1
 title: South Kent School
-purpose: []
 collections:
   - index:
       path: /
@@ -12,30 +15,27 @@ collections:
       path: /rss.xml
       format: rss
       number: 10
+cta:
+  domain: null
+  bucket: null
+  version: null
+analytics:
+  google: null
+  facebook: null
+  twitter: null
+opengraph:
+  image: null
+  type: null
+  appId: null
 color:
-  saturation: 0
-  brandStrength: 1
-  rhythmicContrast: 0.9417476847302169
   brandColors:
     - '#ffffff'
     - '#000000'
     - '#666666'
     - '#b50839'
     - '#e6a9ba'
+  brandStrength: 1
   lightness: 1
-cta:
-  bucket: null
-  version: null
-  domain: null
-analytics:
-  twitter: null
-  google: null
-  facebook: null
-name: sks
-favicon: null
-opengraph:
-  image: null
-  type: null
-  appId: null
-typography_spectrum: 1
-layout_spectrum: 1
+  saturation: 0
+  rhythmicContrast: 0.9417476847302169
+purpose: []
