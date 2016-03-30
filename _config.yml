@@ -1,7 +1,7 @@
 name: sks
 favicon: null
 layout_spectrum: 0.48547
-typography_spectrum: 0.4814200480468571
+typography_spectrum: 1
 title: South Kent School
 cta:
   domain: null
@@ -23,7 +23,7 @@ color:
     - '#b50839'
     - '#e6a9ba'
   brandStrength: 1
-  lightness: 0.4095861464738846
-  saturation: 0.7044884478673339
+  lightness: 1
+  saturation: 0
   rhythmicContrast: 0.9417476847302169
 purpose: []
