@@ -1,0 +1,683 @@
+<!DOCTYPE HTML><html class="exporting wf-loading"><head><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/><title>sks</title><meta name="generator" content="The Grid taylor/0.19.8"><meta name="the-grid-solution" content="176dec92-d52c-44a1-a794-8f04a705914d"><style href="./css/scale/mini.css" media="(max-width: 19.9376em)" rel="stylesheet">@media (max-width: 15.625em){html{font-size:3.09375em !important}}
+@media (min-width: 15.6875em)and (max-width: 15.75em){	html{font-size:3.28125em !important}}
+@media (min-width: 15.8125em)and (max-width: 16.25em){	html{font-size:3.375em !important}}
+@media (min-width: 16.3125em)and (max-width: 16.6875em){html{font-size:3.46875em !important}}
+@media (min-width: 16.75em)and (max-width: 17.125em){	html{font-size:3.5625em !important}}
+@media (min-width: 17.1875em)and (max-width: 17.5625em){html{font-size:3.65625em !important}}
+@media (min-width: 17.625em)and (max-width: 18em){		html{font-size:3.75em !important}}
+@media (min-width: 18.0625em)and (max-width: 18.5em){	html{font-size:3.84375em !important}}
+@media (min-width: 18.5625em)and (max-width: 18.9375em){html{font-size:3.9375em !important}}
+@media (min-width: 19em)and (max-width: 19.375em){		html{font-size:4.03125em !important}}
+@media (min-width: 19.4375em)and (max-width: 19.8125em){html{font-size:4.1125em !important}}
+@media (min-width: 19.875em){html{font-size:4.17125em !important}}</style><style href="./css/scale/small.css" media="(min-width: 20em)" rel="stylesheet">@media (max-width: 20.25em)   {html{font-size:4.125em !important}}
+@media (min-width: 20.3125em) {html{font-size:4.3125em !important}}
+@media (min-width: 20.8125em) {html{font-size:4.40625em !important}}
+@media (min-width: 21.25em)   {html{font-size:4.5em !important}}
+@media (min-width: 21.6875em) {html{font-size:4.59375em !important}}
+@media (min-width: 22.125em)  {html{font-size:4.6875em !important}}
+@media (min-width: 22.5625em) {html{font-size:4.78125em !important}}
+@media (min-width: 23.0625em) {html{font-size:4.875em !important}}
+@media (min-width: 23.5em)    {html{font-size:4.96875em !important}}
+@media (min-width: 23.9375em) {html{font-size:5.0625em !important}}
+@media (min-width: 24.375em)  {html{font-size:5.15625em !important}}
+@media (min-width: 24.8125em) {html{font-size:5.25em !important}}
+@media (min-width: 25.3125em) {html{font-size:5.34375em !important}}
+@media (min-width: 25.75em)   {html{font-size:5.4375em !important}}
+@media (min-width: 26.1875em) {html{font-size:5.53125em !important}}
+@media (min-width: 26.625em)  {html{font-size:5.625em !important}}
+@media (min-width: 27.0625em) {html{font-size:5.71875em !important}}
+@media (min-width: 27.5625em) {html{font-size:5.8125em !important}}
+@media (min-width: 28em)      {html{font-size:5.90625em !important}}
+@media (min-width: 28.4375em) {html{font-size:6em !important}}
+@media (min-width: 28.875em)  {html{font-size:6.09375em !important}}
+@media (min-width: 29.3125em) {html{font-size:6.18375em !important}}
+@media (min-width: 29.6125em) {html{font-size:6.27375em !important}}
+@media (min-width: 30.025em)  {html{font-size:4.1875em !important}}
+@media (min-width: 30.25em)   {html{font-size:4.25em !important}}
+@media (min-width: 30.6875em) {html{font-size:4.3125em !important}}
+@media (min-width: 31.125em)  {html{font-size:4.375em !important}}
+@media (min-width: 31.5625em) {html{font-size:4.4375em !important}}
+@media (min-width: 32.0625em) {html{font-size:4.5em !important}}
+@media (min-width: 32.5em)    {html{font-size:4.5625em !important}}
+@media (min-width: 32.9375em) {html{font-size:4.625em !important}}
+@media (min-width: 33.375em)  {html{font-size:4.6875em !important}}
+@media (min-width: 33.8125em) {html{font-size:4.75em !important}}
+@media (min-width: 34.3125em) {html{font-size:4.8125em !important}}
+@media (min-width: 34.75em)   {html{font-size:4.875em !important}}
+@media (min-width: 35.1875em) {html{font-size:4.9375em !important}}
+@media (min-width: 35.625em)  {html{font-size:5em !important}}
+@media (min-width: 36.0625em) {html{font-size:5.0625em !important}}
+@media (min-width: 36.5625em) {html{font-size:5.125em !important}}
+@media (min-width: 37em)      {html{font-size:5.1875em !important}}
+@media (min-width: 37.4375em) {html{font-size:5.25em !important}}
+@media (min-width: 37.875em)  {html{font-size:5.3125em !important}}
+@media (min-width: 38.3125em) {html{font-size:5.375em !important}}
+@media (min-width: 38.8125em) {html{font-size:5.4375em !important}}
+@media (min-width: 39.25em)   {html{font-size:5.5em !important}}
+@media (min-width: 39.6875em) {html{font-size:5.5625em !important}}
+@media (min-width: 40.125em)  {html{font-size:5.625em !important}}
+@media (min-width: 40.5625em) {html{font-size:5.6875em !important}}
+@media (min-width: 41.0625em) {html{font-size:5.75em !important}}
+@media (min-width: 41.5em)    {html{font-size:5.8125em !important}}
+@media (min-width: 41.9375em) {html{font-size:5.875em !important}}
+@media (min-width: 42.375em)  {html{font-size:5.9375em !important}}
+@media (min-width: 42.8125em) {html{font-size:6em !important}}
+@media (min-width: 43.3125em) {html{font-size:6.0625em !important}}
+@media (min-width: 43.75em)   {html{font-size:6.125em !important}}
+@media (min-width: 44.1875em) {html{font-size:6.185em !important}}
+@media (min-width: 44.625em)  {html{font-size:6.24em !important}}</style><style href="./css/scale/medium.css" media="(min-width: 45.0625em)" rel="stylesheet">
+@media (min-width: 45.0625em)and (max-width: 45.9375em){html{font-size:4.78125em !important}}
+@media (min-width: 46em)and (max-width: 46.8125em){		html{font-size:4.875em !important}}
+@media (min-width: 46.875em)and (max-width: 47.75em){	html{font-size:4.96875em !important}}
+@media (min-width: 47.8125em)and (max-width: 48.625em){	html{font-size:5.0625em !important}}
+@media (min-width: 48.6875em)and (max-width: 49.5em){	html{font-size:5.15625em !important}}
+@media (min-width: 49.5625em)and (max-width: 50.4375em){html{font-size:5.25em !important}}
+@media (min-width: 50.5em)and (max-width: 51.3125em){	html{font-size:5.34375em !important}}
+@media (min-width: 51.375em)and (max-width: 52.25em){	html{font-size:5.4375em !important}}
+@media (min-width: 52.3125em)and (max-width: 53.125em){	html{font-size:5.53125em !important}}
+@media (min-width: 53.1875em)and (max-width: 54em){		html{font-size:5.625em !important}}
+@media (min-width: 54.0625em)and (max-width: 54.9375em){html{font-size:5.71875em !important}}
+@media (min-width: 55em)and (max-width: 55.8125em){		html{font-size:5.8125em !important}}
+@media (min-width: 55.875em)and (max-width: 56.75em){	html{font-size:5.90625em !important}}
+@media (min-width: 56.8125em)and (max-width: 57.625em){	html{font-size:6em !important}}
+@media (min-width: 57.6875em)and (max-width: 58.5em){	html{font-size:6.09375em !important}}
+@media (min-width: 58.5625em)and (max-width: 59.4375em){html{font-size:6.18em !important}}
+@media (min-width: 60.01em)and (max-width: 60.3125em){		html{font-size:4.1875em !important}}
+@media (min-width: 60.375em)and (max-width: 61.25em){	html{font-size:4.25em !important}}
+@media (min-width: 61.3125em)and (max-width: 62.125em){	html{font-size:4.3125em !important}}
+@media (min-width: 62.1875em)and (max-width: 63em){		html{font-size:4.375em !important}}
+@media (min-width: 63.0625em)and (max-width: 63.9375em){html{font-size:4.4375em !important}}
+@media (min-width: 64em)and (max-width: 64.8125em){		html{font-size:4.5em !important}}
+@media (min-width: 64.875em)and (max-width: 65.75em){	html{font-size:4.5625em !important}}
+@media (min-width: 65.8125em)and (max-width: 66.625em){	html{font-size:4.625em !important}}
+@media (min-width: 66.6875em)and (max-width: 67.5em){	html{font-size:4.6875em !important}}
+@media (min-width: 67.5625em)and (max-width: 68.4375em){html{font-size:4.75em !important}}
+@media (min-width: 68.5em)and (max-width: 69.3125em){	html{font-size:4.8125em !important}}
+@media (min-width: 69.375em)and (max-width: 70.25em){	html{font-size:4.875em !important}}
+@media (min-width: 70.3125em)and (max-width: 71.125em){	html{font-size:4.9375em !important}}
+@media (min-width: 71.1875em)and (max-width: 72em){		html{font-size:5em !important}}
+@media (min-width: 72.0625em)and (max-width: 72.9375em){html{font-size:5.0625em !important}}
+@media (min-width: 73em)and (max-width: 73.8125em){		html{font-size:5.125em !important}}
+@media (min-width: 73.875em)and (max-width: 74.75em){	html{font-size:5.1875em !important}}
+@media (min-width: 74.8125em)and (max-width: 75.625em){	html{font-size:5.25em !important}}
+@media (min-width: 75.6875em)and (max-width: 76.5em){	html{font-size:5.3125em !important}}
+@media (min-width: 76.5625em)and (max-width: 77.4375em){html{font-size:5.375em !important}}
+@media (min-width: 77.5em)and (max-width: 78.3125em){	html{font-size:5.4375em !important}}
+@media (min-width: 78.375em)and (max-width: 79.25em){	html{font-size:5.5em !important}}
+@media (min-width: 79.3125em)and (max-width: 80.125em){	html{font-size:5.5625em !important}}
+@media (min-width: 80.1875em)and (max-width: 81em){		html{font-size:5.625em !important}}
+@media (min-width: 81.0625em)and (max-width: 81.9375em){html{font-size:5.6875em !important}}
+@media (min-width: 82em)and (max-width: 82.8125em){		html{font-size:5.75em !important}}
+@media (min-width: 82.875em)and (max-width: 83.75em){	html{font-size:5.8125em !important}}
+@media (min-width: 83.8125em)and (max-width: 84.625em){	html{font-size:5.875em !important}}
+@media (min-width: 84.6875em)and (max-width: 85.5em){	html{font-size:5.9375em !important}}
+@media (min-width: 85.5625em)and (max-width: 86.4375em){html{font-size:6em !important}}
+@media (min-width: 86.5em)and (max-width: 87.3125em){	html{font-size:6.0625em !important}}
+@media (min-width: 87.375em)and (max-width: 88.25em){	html{font-size:6.125em !important}}
+@media (min-width: 88.3125em)and (max-width: 89.125em){	html{font-size:6.185em !important}}
+@media (min-width: 89.1875em){html{font-size:6.245em !important}}</style><style href="./css/scale/large.css" media="(min-width: 90.0625em)" rel="stylesheet">
+@media (min-width: 90em)and (max-width: 90em){html{font-size:4.9375em !important}}
+@media (min-width: 90.0625em)and (max-width: 91.125em){  html{font-size:5.0625em !important}}
+@media (min-width: 91.1875em)and (max-width: 92.25em){   html{font-size:5.125em !important}}
+@media (min-width: 92.3125em)and (max-width: 93.375em){  html{font-size:5.1875em !important}}
+@media (min-width: 93.4375em)and (max-width: 94.5em){    html{font-size:5.25em !important}}
+@media (min-width: 94.5625em)and (max-width: 95.625em){  html{font-size:5.3125em !important}}
+@media (min-width: 95.6875em)and (max-width: 96.75em){   html{font-size:5.375em !important}}
+@media (min-width: 96.8125em)and (max-width: 97.875em){  html{font-size:5.4375em !important}}
+@media (min-width: 97.9375em)and (max-width: 99em){      html{font-size:5.5em !important}}
+@media (min-width: 99.0625em)and (max-width: 100.125em){ html{font-size:5.5625em !important}}
+@media (min-width: 100.1875em)and (max-width: 101.25em){ html{font-size:5.625em !important}}
+@media (min-width: 101.3125em)and (max-width: 102.375em){html{font-size:5.6875em !important}}
+@media (min-width: 102.4375em)and (max-width: 103.5em){  html{font-size:5.75em !important}}
+@media (min-width: 103.5625em)and (max-width: 104.625em){html{font-size:5.8125em !important}}
+@media (min-width: 104.6875em)and (max-width: 105.75em){ html{font-size:5.875em !important}}
+@media (min-width: 105.8125em)and (max-width: 106.875em){html{font-size:5.9375em !important}}
+@media (min-width: 106.9375em)and (max-width: 108em){    html{font-size:6em !important}}
+@media (min-width: 108.0625em)and (max-width: 109.125em){html{font-size:6.0625em !important}}
+@media (min-width: 109.1875em)and (max-width: 110.25em){ html{font-size:6.125em !important}}
+@media (min-width: 110.3125em)and (max-width: 111.375em){html{font-size:6.185em !important}}
+@media (min-width: 111.4375em){html{font-size:6.245em !important}}
+
+@media (min-width: 112.5em)and (max-width: 112.5em){      html{font-size:6.25em !important}}
+@media (min-width: 112.5625em)and (max-width: 113.625em){ html{font-size:6.3125em !important}}
+@media (min-width: 113.6875em)and (max-width: 114.75em){  html{font-size:6.375em !important}}
+@media (min-width: 114.8125em)and (max-width: 115.875em){ html{font-size:6.4375em !important}}
+@media (min-width: 115.9375em)and (max-width: 117em){     html{font-size:6.5em !important}}
+@media (min-width: 117.0625em)and (max-width: 118.125em){ html{font-size:6.5625em !important}}
+@media (min-width: 118.1875em)and (max-width: 119.25em){  html{font-size:6.625em !important}}
+@media (min-width: 119.3125em)and (max-width: 120.375em){ html{font-size:6.6875em !important}}
+@media (min-width: 120.4375em)and (max-width: 121.5em){   html{font-size:6.75em !important}}
+@media (min-width: 121.5625em)and (max-width: 122.625em){ html{font-size:6.8125em !important}}
+@media (min-width: 122.6875em)and (max-width: 123.75em){  html{font-size:6.875em !important}}
+@media (min-width: 123.8125em)and (max-width: 124.875em){ html{font-size:6.9375em !important}}
+@media (min-width: 124.9375em)and (max-width: 126em){     html{font-size:7em !important}}
+@media (min-width: 126.0625em)and (max-width: 127.1875em){html{font-size:7.0625em !important}}
+@media (min-width: 127.25em)and (max-width: 128.3125em){  html{font-size:7.125em !important}}
+@media (min-width: 128.375em)and (max-width: 129.4375em){ html{font-size:7.1875em !important}}
+@media (min-width: 129.5em)and (max-width: 130.5625em){   html{font-size:7.2475em !important}}
+@media (min-width: 130.625em){html{font-size:7.3075em !important}}</style><style href="./css/reset.css" rel="stylesheet">*,
+*:before,
+*:after {
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern";
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  padding: 0;
+  margin: 0;
+}
+div,
+section,
+article,
+aside,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+svg,
+iframe,
+a {
+  border-style: solid;
+  outline-style: solid;
+  border-width: 0;
+  outline-width: 0;
+}
+.media {
+  box-sizing: content-box;
+}
+html {
+  width: 100%;
+  font-size: 16px;
+}
+body {
+  width: 100%;
+  /* Dangerous? Makes mobile happy */
+  overflow: hidden;
+  overflow-y: auto;
+}
+.stack {
+  z-index: 1;
+  transition: transform 0.3s ease-out;
+}
+picture {
+  display: inline-block;
+}
+picture img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+iframe {
+  border: none;
+  outline: 0;
+  height: 100%;
+  width: 100%;
+}
+.group {
+  pointer-events: none;
+}
+.group > * {
+  pointer-events: all;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.text a,
+.data a {
+  border-bottom: 1px solid transparent;
+}
+a.more {
+  font-weight: bold;
+  white-space: nowrap;
+  display: inline-block;
+}
+span.final-word {
+  margin-right: 1em;
+  margin-bottom: 1em;
+  display: inline-block;
+}
+a:link,
+a:visited {
+  transition: color 0.3s ease-out, background-color 0.3s ease-in;
+  -webkit-transition: color 0.3s ease-out, background-color 0.3s ease-in;
+}
+a:hover,
+a:focus {
+  transition: color 0.2s ease-in, background-color 0.2s ease-out;
+  -webkit-transition: color 0.2s ease-in, background-color 0.2s ease-out;
+}
+a:active {
+  transition: color 0.1s ease-in, background-color 0.1s ease-out;
+  -webkit-transition: color 0.1s ease-in, background-color 0.1s ease-out;
+}
+a.aside {
+  display: inline-block;
+}
+html.exporting a {
+  transition: none;
+}
+.cta {
+  text-decoration: none;
+}
+.media > a {
+  display: inline-block;
+}
+h1 a,
+h2 a,
+h3 a {
+  font-weight: inherit;
+  letter-spacing: inherit;
+}
+a {
+  -webkit-box-decoration-break: clone;
+  -ms-box-decoration-break: clone;
+  -moz-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+.text-decoration {
+  -webkit-box-decoration-break: clone;
+  -ms-box-decoration-break: clone;
+  -moz-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+.aside.text-decoration {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.decoration {
+  pointer-events: none;
+}
+.svg {
+  position: relative;
+}
+.svg > svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.svg.connector > svg {
+  width: 109%;
+  height: 109%;
+  margin-left: -2%;
+}
+.svg path,
+.svg ellipse,
+.svg rect,
+.svg polygon,
+.svg circle {
+  fill: currentColor !important;
+}
+.svg mpath,
+.svg line,
+.svg polyline {
+  stroke: currentColor !important;
+}
+.decoration {
+  background-color: currentColor;
+}
+.svg {
+  background-color: transparent;
+}
+.revealed .play.svg:after {
+  display: block;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -20px;
+  background-color: currentColor;
+  content: "";
+}
+.revealed,
+.revealed > * {
+  pointer-events: none;
+}
+.revealed .aside,
+.revealed a {
+  pointer-events: all;
+}
+.panel.w_cta {
+  z-index: 3;
+}
+.panel .cta {
+  opacity: 0;
+}
+.widget.button {
+  padding: 20px;
+  box-sizing: content-box;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.85));
+}
+.widget.expanded {
+  transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+}
+.cta.checkout {
+  position: fixed !important;
+  background-color: inherit;
+  border-radius: 50%;
+  border: 10px solid transparent;
+  margin: -10px;
+  box-sizing: content-box;
+  z-index: 10;
+}
+.revealed {
+  background-image: none !important;
+  background-color: none !important;
+}
+.stack,
+.group,
+.aside,
+.decoration,
+.media,
+html body a.media,
+.media img,
+.media picture,
+.group iframe,
+.widget,
+.cta {
+  min-width: 0;
+  min-height: 0;
+  transition-duration: .3s;
+  transition-property: transform, color, background-color, opacity, clip, z-index, border-width;
+  transition-timing-function: ease-out;
+  -webkit-transition-duration: .3s;
+  -webkit-transition-property: -webkit-transform, color, background-color, opacity, clip, z-index, border-width;
+  -webkit-transition-timing-function: ease-out;
+}
+.media img {
+  transition-property: transform, color, background-color;
+  -webkit-transition-property: -webkit-transform, color, background-color;
+}
+.decoration {
+  z-index: 3;
+}
+.panel ul {
+  list-style-type: none !important;
+}
+ul {
+  list-style-position: inside;
+}
+.panel .heading {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.listing:not(.open) .shadow-overlay {
+  pointer-events: none;
+}
+.group {
+  z-index: 1;
+}
+.group .decoration {
+  opacity: .95;
+}
+.group .title,
+.group .text,
+.group .aside {
+  z-index: 2;
+}
+.group .attribution:after {
+  display: block;
+  clear: both;
+  content: '';
+  height: 0px;
+}
+.group .attribution .publisher {
+  display: inline-block;
+  vertical-align: top;
+}
+.group .attribution .author {
+  display: inline-block;
+  vertical-align: top;
+  color: inherit;
+  z-index: 3;
+}
+.group .attribution a.author {
+  font-weight: bold;
+}
+.group .attribution .avatar > img,
+.group .attribution .avatar > picture,
+.group .attribution .avatar a,
+.group .attribution .avatar {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+</style><style id="web-font-binder" type="text/css">html {font-family: "-apple-system", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "sans-serif";;font-weight: 400;}
+ .wf-active html {font-family: "Roboto", "-apple-system", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "sans-serif";}
+ .layout-system .stack .hero {font-family: "-apple-system", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "sans-serif";;font-weight: 700;}
+
+ .wf-active  .layout-system .stack .hero {font-family: "Roboto", "-apple-system", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "sans-serif";}
+ .layout-system .stack .title {font-family: "-apple-system", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "sans-serif";;}
+
+ .wf-active  .layout-system .stack .title {font-family: "Roboto", "-apple-system", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "sans-serif";}
+ .layout-system .stack .subtitle {font-family: "-apple-system", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "sans-serif";;}
+
+ .wf-active  .layout-system .stack .subtitle {font-family: "Roboto", "-apple-system", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "sans-serif";}
+ .layout-system .stack .title {font-weight: 400;}
+ .layout-system .stack .subtitle {font-weight: 700;}
+ .layout-system .stack .text {font-family: "-apple-system", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "sans-serif";;}
+
+ .wf-active  .layout-system .stack .text {font-family: "Roboto", "-apple-system", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "sans-serif";}
+ a {font-family: "-apple-system", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "sans-serif";;font-weight: 400;}
+
+ .wf-active  a {font-family: "Roboto", "-apple-system", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "sans-serif";}
+ .attribution {font-family: "-apple-system", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "sans-serif";;font-weight: 700;}
+
+ .wf-active  .attribution {font-family: "Roboto", "-apple-system", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "sans-serif";}
+ .layout-system .stack .quote {font-family: "-apple-system", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "sans-serif";;font-weight: 400;font-style: italic;}
+
+ .wf-active  .layout-system .stack .quote {font-family: "Roboto", "-apple-system", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "sans-serif";}
+ .layout-system .stack .subtitle {text-transform: inherit;}.layout-system .title a {
+  font: inherit;
+}</style><style id="page-css-solution">
+@media (max-width: 480px) {
+.layout-system { margin: 0px auto; position: relative; }
+#page-c5d82011-72f6-413b-ab52-94253f644d0e#page-c5d82011-72f6-413b-ab52-94253f644d0e{width: 4.804rem;}
+#u-c5d82011-72f6-413b-ab52-94253f644d0e-mobile-l-one#u-c5d82011-72f6-413b-ab52-94253f644d0e-mobile-l-one{position: relative;}
+#u-c5d82011-72f6-413b-ab52-94253f644d0e-mobile-l-one-l-one#u-c5d82011-72f6-413b-ab52-94253f644d0e-mobile-l-one-l-one{position: relative; display: block; width: 4.804rem; height: 81.604rem; top: 0rem; left: 0rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca{font-size: 0.164rem; line-height: 0.204rem; height: 81.604rem; width: 4.804rem; position: absolute; top: 0rem; left: 0rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca:before{}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca >.group.figure { text-align: left; }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure{font-size: 0.164rem; line-height: 0.244rem; height: 81.364rem; width: 4.564rem; position: absolute; top: 0.124rem; left: 0.124rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-t-paragraph#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-t-paragraph{font-size: 0.164rem; line-height: 0.244rem; width: 4.084rem; position: absolute; top: 0.724rem; left: 0.244rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-d-leader#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-d-leader{height: 0.044rem; width: 4.084rem; position: absolute; top: 0.484rem; left: 0.244rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure > .text.paragraph { color: rgb(255, 255, 255); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure > .text.paragraph a { color: rgb(233, 182, 197); border-color: rgba(255, 255, 255, 0.498039); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure > .text.paragraph a:hover { color: rgb(200, 70, 107); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure > .decoration.leader { color: rgb(255, 255, 255); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure { background-color: rgb(181, 8, 57); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca a { color: rgb(237, 193, 206); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca a:hover { color: rgb(0, 0, 0); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca a:active { color: rgb(0, 0, 0); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca { background-color: rgb(181, 8, 57); }
+#u-c5d82011-72f6-413b-ab52-94253f644d0e-mobile-l-one-l-one#u-c5d82011-72f6-413b-ab52-94253f644d0e-mobile-l-one-l-one { background-color: rgb(189, 0, 53); }
+.export-linebreaks, .export-linebreaks .aside .aside { white-space: nowrap }
+.translated-ltr .export-linebreaks, .export-linebreaks .aside { white-space: normal }
+.translated-ltr wbr, wbr[class] { display: none }
+wbr.w480{ display: block }
+#u-c5d82011-72f6-413b-ab52-94253f644d0e-desktop-l-one,
+ #u-c5d82011-72f6-413b-ab52-94253f644d0e-cinema-l-one {
+display: none;
+}
+}
+@media (min-width: 481px) and (max-width: 720px){
+.layout-system { margin: 0px auto; position: relative; }
+#page-c5d82011-72f6-413b-ab52-94253f644d0e#page-c5d82011-72f6-413b-ab52-94253f644d0e{width: 7.204rem;}
+#u-c5d82011-72f6-413b-ab52-94253f644d0e-mobile-l-one#u-c5d82011-72f6-413b-ab52-94253f644d0e-mobile-l-one{position: relative;}
+#u-c5d82011-72f6-413b-ab52-94253f644d0e-mobile-l-one-l-one#u-c5d82011-72f6-413b-ab52-94253f644d0e-mobile-l-one-l-one{position: relative; display: block; width: 7.204rem; height: 54.384rem; top: 0rem; left: 0rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca{font-size: 0.164rem; line-height: 0.204rem; height: 54.384rem; width: 7.204rem; position: absolute; top: 0rem; left: 0rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca:before{}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca >.group.figure { text-align: left; }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure{font-size: 0.164rem; line-height: 0.244rem; height: 54.024rem; width: 6.844rem; position: absolute; top: 0.184rem; left: 0.184rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-t-paragraph#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-t-paragraph{font-size: 0.164rem; line-height: 0.244rem; width: 6.124rem; position: absolute; top: 0.984rem; left: 0.364rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-d-leader#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-d-leader{height: 0.054rem; width: 6.124rem; position: absolute; top: 0.724rem; left: 0.364rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure > .text.paragraph { color: rgb(255, 255, 255); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure > .text.paragraph a { color: rgb(233, 182, 197); border-color: rgba(255, 255, 255, 0.498039); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure > .text.paragraph a:hover { color: rgb(200, 70, 107); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure > .decoration.leader { color: rgb(255, 255, 255); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure { background-color: rgb(181, 8, 57); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca a { color: rgb(237, 193, 206); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca a:hover { color: rgb(0, 0, 0); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca a:active { color: rgb(0, 0, 0); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca { background-color: rgb(181, 8, 57); }
+#u-c5d82011-72f6-413b-ab52-94253f644d0e-mobile-l-one-l-one#u-c5d82011-72f6-413b-ab52-94253f644d0e-mobile-l-one-l-one { background-color: rgb(189, 0, 53); }
+.export-linebreaks, .export-linebreaks .aside .aside { white-space: nowrap }
+.translated-ltr .export-linebreaks, .export-linebreaks .aside { white-space: normal }
+.translated-ltr wbr, wbr[class] { display: none }
+wbr.w481{ display: block }
+#u-c5d82011-72f6-413b-ab52-94253f644d0e-desktop-l-one,
+ #u-c5d82011-72f6-413b-ab52-94253f644d0e-cinema-l-one {
+display: none;
+}
+}
+@media (min-width: 721px) and (max-width: 960px) {
+.layout-system { margin: 0px auto; position: relative; }
+#page-c5d82011-72f6-413b-ab52-94253f644d0e#page-c5d82011-72f6-413b-ab52-94253f644d0e{width: 9.604rem;}
+#u-c5d82011-72f6-413b-ab52-94253f644d0e-desktop-l-one#u-c5d82011-72f6-413b-ab52-94253f644d0e-desktop-l-one{position: relative;}
+#u-c5d82011-72f6-413b-ab52-94253f644d0e-desktop-l-one-l-one#u-c5d82011-72f6-413b-ab52-94253f644d0e-desktop-l-one-l-one{position: relative; display: block; width: 9.604rem; height: 86.884rem; left: 0rem; top: 0rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca{font-size: 0.164rem; line-height: 0.204rem; width: 9.604rem; height: 86.884rem; position: absolute; left: 0rem; top: 0rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca:before{}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca >.group.figure { text-align: left; }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure{font-size: 0.164rem; line-height: 0.244rem; width: 4.324rem; height: 85.924rem; position: absolute; left: 2.644rem; top: 0.484rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-t-paragraph#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-t-paragraph{font-size: 0.164rem; line-height: 0.244rem; width: 3.844rem; position: absolute; left: 0.244rem; top: 0.2415rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-d-leader#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-d-leader{height: 0.044rem; width: 3.844rem; position: absolute; left: 0.244rem; top: 0rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure > .text.paragraph { color: rgb(255, 255, 255); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure > .text.paragraph a { color: rgb(233, 182, 197); border-color: rgba(255, 255, 255, 0.498039); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure > .text.paragraph a:hover { color: rgb(200, 70, 107); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure > .decoration.leader { color: rgb(255, 255, 255); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure { background-color: rgb(189, 0, 53); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca a { color: rgb(237, 193, 206); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca a:hover { color: rgb(0, 0, 0); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca a:active { color: rgb(0, 0, 0); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca { background-color: rgb(189, 0, 53); }
+#u-c5d82011-72f6-413b-ab52-94253f644d0e-desktop-l-one-l-one#u-c5d82011-72f6-413b-ab52-94253f644d0e-desktop-l-one-l-one { background-color: rgb(189, 0, 53); }
+.export-linebreaks, .export-linebreaks .aside .aside { white-space: nowrap }
+.translated-ltr .export-linebreaks, .export-linebreaks .aside { white-space: normal }
+.translated-ltr wbr, wbr[class] { display: none }
+wbr.w960{ display: block }
+#u-c5d82011-72f6-413b-ab52-94253f644d0e-mobile-l-one,
+ #u-c5d82011-72f6-413b-ab52-94253f644d0e-cinema-l-one {
+display: none;
+}
+}
+@media (min-width: 961px) and (max-width: 1440px){
+.layout-system { margin: 0px auto; position: relative; }
+#page-c5d82011-72f6-413b-ab52-94253f644d0e#page-c5d82011-72f6-413b-ab52-94253f644d0e{width: 14.404rem;}
+#u-c5d82011-72f6-413b-ab52-94253f644d0e-desktop-l-one#u-c5d82011-72f6-413b-ab52-94253f644d0e-desktop-l-one{position: relative;}
+#u-c5d82011-72f6-413b-ab52-94253f644d0e-desktop-l-one-l-one#u-c5d82011-72f6-413b-ab52-94253f644d0e-desktop-l-one-l-one{position: relative; display: block; width: 14.404rem; height: 57.384rem; left: 0rem; top: 0rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca{font-size: 0.164rem; line-height: 0.204rem; width: 14.404rem; height: 57.384rem; position: absolute; left: 0rem; top: 0rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca:before{}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca >.group.figure { text-align: left; }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure{font-size: 0.164rem; line-height: 0.244rem; width: 6.484rem; height: 55.944rem; position: absolute; left: 3.964rem; top: 0.724rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-t-paragraph#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-t-paragraph{font-size: 0.164rem; line-height: 0.244rem; width: 5.764rem; position: absolute; left: 0.364rem; top: 0.2615rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-d-leader#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-d-leader{height: 0.054rem; width: 5.764rem; position: absolute; left: 0.364rem; top: 0rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure > .text.paragraph { color: rgb(255, 255, 255); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure > .text.paragraph a { color: rgb(233, 182, 197); border-color: rgba(255, 255, 255, 0.498039); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure > .text.paragraph a:hover { color: rgb(200, 70, 107); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure > .decoration.leader { color: rgb(255, 255, 255); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure { background-color: rgb(189, 0, 53); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca a { color: rgb(237, 193, 206); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca a:hover { color: rgb(0, 0, 0); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca a:active { color: rgb(0, 0, 0); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca { background-color: rgb(189, 0, 53); }
+#u-c5d82011-72f6-413b-ab52-94253f644d0e-desktop-l-one-l-one#u-c5d82011-72f6-413b-ab52-94253f644d0e-desktop-l-one-l-one { background-color: rgb(189, 0, 53); }
+.export-linebreaks, .export-linebreaks .aside .aside { white-space: nowrap }
+.translated-ltr .export-linebreaks, .export-linebreaks .aside { white-space: normal }
+.translated-ltr wbr, wbr[class] { display: none }
+wbr.w961{ display: block }
+#u-c5d82011-72f6-413b-ab52-94253f644d0e-mobile-l-one,
+ #u-c5d82011-72f6-413b-ab52-94253f644d0e-cinema-l-one {
+display: none;
+}
+}
+@media (min-width: 1441px) and (max-width: 1799px) {
+.layout-system { margin: 0px auto; position: relative; }
+#page-c5d82011-72f6-413b-ab52-94253f644d0e#page-c5d82011-72f6-413b-ab52-94253f644d0e{width: 17.994rem;}
+#u-c5d82011-72f6-413b-ab52-94253f644d0e-cinema-l-one#u-c5d82011-72f6-413b-ab52-94253f644d0e-cinema-l-one{position: relative;}
+#u-c5d82011-72f6-413b-ab52-94253f644d0e-cinema-l-one-l-one#u-c5d82011-72f6-413b-ab52-94253f644d0e-cinema-l-one-l-one{position: relative; display: block; width: 17.994rem; height: 72.624rem; left: 0rem; top: 0rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca{font-size: 0.204rem; line-height: 0.254rem; width: 17.994rem; height: 72.624rem; position: absolute; left: 0rem; top: 0rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca:before{}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca >.group.figure { text-align: left; }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure{font-size: 0.204rem; line-height: 0.304rem; width: 8.104rem; height: 70.824rem; position: absolute; left: 4.954rem; top: 0.904rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-t-paragraph#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-t-paragraph{font-size: 0.204rem; line-height: 0.304rem; width: 7.204rem; position: absolute; left: 0.454rem; top: 0.3215rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-d-leader#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-d-leader{height: 0.074rem; width: 7.204rem; position: absolute; left: 0.454rem; top: 0rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure > .text.paragraph { color: rgb(255, 255, 255); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure > .text.paragraph a { color: rgb(233, 182, 197); border-color: rgba(255, 255, 255, 0.498039); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure > .text.paragraph a:hover { color: rgb(200, 70, 107); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure > .decoration.leader { color: rgb(255, 255, 255); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure { background-color: rgb(189, 0, 53); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca a { color: rgb(237, 193, 206); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca a:hover { color: rgb(0, 0, 0); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca a:active { color: rgb(0, 0, 0); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca { background-color: rgb(189, 0, 53); }
+#u-c5d82011-72f6-413b-ab52-94253f644d0e-cinema-l-one-l-one#u-c5d82011-72f6-413b-ab52-94253f644d0e-cinema-l-one-l-one { background-color: rgb(189, 0, 53); }
+.export-linebreaks, .export-linebreaks .aside .aside { white-space: nowrap }
+.translated-ltr .export-linebreaks, .export-linebreaks .aside { white-space: normal }
+.translated-ltr wbr, wbr[class] { display: none }
+wbr.w1799{ display: block }
+#u-c5d82011-72f6-413b-ab52-94253f644d0e-mobile-l-one,
+ #u-c5d82011-72f6-413b-ab52-94253f644d0e-desktop-l-one {
+display: none;
+}
+}
+@media (min-width: 1800px) {
+.layout-system { margin: 0px auto; position: relative; }
+#page-c5d82011-72f6-413b-ab52-94253f644d0e#page-c5d82011-72f6-413b-ab52-94253f644d0e{width: 18rem;}
+#u-c5d82011-72f6-413b-ab52-94253f644d0e-cinema-l-one#u-c5d82011-72f6-413b-ab52-94253f644d0e-cinema-l-one{position: relative;}
+#u-c5d82011-72f6-413b-ab52-94253f644d0e-cinema-l-one-l-one#u-c5d82011-72f6-413b-ab52-94253f644d0e-cinema-l-one-l-one{position: relative; display: block; width: 18rem; height: 42.074rem; left: 0rem; top: 0rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca{font-size: 0.154rem; line-height: 0.194rem; width: 18rem; height: 42.074rem; position: absolute; left: 0rem; top: 0rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca:before{}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca >.group.figure { text-align: left; }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure{font-size: 0.154rem; line-height: 0.234rem; width: 8.104rem; height: 40.284rem; position: absolute; left: 4.964rem; top: 0.904rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-t-paragraph#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-t-paragraph{font-size: 0.154rem; line-height: 0.234rem; width: 7.204rem; position: absolute; left: 0.454rem; top: 0.2615rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-d-leader#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-d-leader{height: 0.074rem; width: 7.204rem; position: absolute; left: 0.454rem; top: 0rem;}
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure > .text.paragraph { color: rgb(255, 255, 255); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure > .text.paragraph a { color: rgb(233, 182, 197); border-color: rgba(255, 255, 255, 0.498039); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure > .text.paragraph a:hover { color: rgb(200, 70, 107); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure > .decoration.leader { color: rgb(255, 255, 255); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca .group.figure { background-color: rgb(189, 0, 53); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca a { color: rgb(237, 193, 206); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca a:hover { color: rgb(0, 0, 0); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca a:active { color: rgb(0, 0, 0); }
+#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca#u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca { background-color: rgb(189, 0, 53); }
+#u-c5d82011-72f6-413b-ab52-94253f644d0e-cinema-l-one-l-one#u-c5d82011-72f6-413b-ab52-94253f644d0e-cinema-l-one-l-one { background-color: rgb(189, 0, 53); }
+.export-linebreaks, .export-linebreaks .aside .aside { white-space: nowrap }
+.translated-ltr .export-linebreaks, .export-linebreaks .aside { white-space: normal }
+.translated-ltr wbr, wbr[class] { display: none }
+wbr.w1800{ display: block }
+#u-c5d82011-72f6-413b-ab52-94253f644d0e-mobile-l-one,
+ #u-c5d82011-72f6-413b-ab52-94253f644d0e-desktop-l-one {
+display: none;
+}
+}</style></head><body><div class="layout-system rust mobile" id="page-c5d82011-72f6-413b-ab52-94253f644d0e"><section kind="layout" style="position: relative" sequence="one" role="feed" diff_index="0" index="one" class="layout one i first_layout last_layout w_paragraph w_text w_separator w_decoration w_leader w_trailer w_long_paragraph w_long_text layout one" id="u-c5d82011-72f6-413b-ab52-94253f644d0e-mobile-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_texts layout one i first_layout last_layout feed layout one" id="u-c5d82011-72f6-413b-ab52-94253f644d0e-mobile-l-one-l-one"></div><style id="u-c5d82011-72f6-413b-ab52-94253f644d0e-color">body{background-color: rgba(189, 0, 53, 1)}</style></section><article subject="stack" class="col-1 export-linebreaks not_decorated flow_vertical color_adjust_none color_styles_same_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_xsmall stack_h_outset_none stack_h_inset_xsmall stack_v_align_stretch stack_h_align_center uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_v_align_none group_h_align_none text_align_left flow_unreversed group_v_outset_none group_v_inset_small group_h_outset_none group_h_inset_small font_size_large stack figure i first_stack last_stack w_paragraph w_text w_decoration w_leader w_long_paragraph w_long_text stack figure" itemid="1e98afa5-ec94-4d2f-b19d-a63f8d2972ca" itemtype="article" diff_index="5" index="figure" kind="stack" score="2.625" missed="0.375" tag="article" id="u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca"><div kind="group" index="figure" class="group figure group figure" id="u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure"><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-t-paragraph"><p><span class="first-letter">S</span>ustainable Community- Kat Droessler & Emily <wbr class="w960"></wbr>Carreiro <wbr class="w480"></wbr>Dig into what it means to <wbr class="w961 w1799"></wbr>be a <wbr class="w481"></wbr>knowledgeable <wbr class="w960 w1800"></wbr>citizen of <wbr class="w480"></wbr>the world. This experience will include <wbr class="w960"></wbr>examining <wbr class="w961 w1799"></wbr>the <wbr class="w480"></wbr>pulse of <wbr class="w481"></wbr>campus life, world cultures <wbr class="w960"></wbr>(from <wbr class="w1800"></wbr>food to belief <wbr class="w480"></wbr>systems and beyond) <wbr class="w961 w1799"></wbr>and <wbr class="w960"></wbr>regularly <wbr class="w481"></wbr>looking into how <wbr class="w480"></wbr>culture and society are <wbr class="w960"></wbr>affected by <wbr class="w1800"></wbr>seasons by <wbr class="w961 w1799"></wbr>examining <wbr class="w480"></wbr>our own <wbr class="w481 w960"></wbr>community on the Hillside. We will also learn to <wbr class="w480"></wbr>be <wbr class="w960"></wbr>mindful in <wbr class="w961 w1799"></wbr>our daily life <wbr class="w1800"></wbr>and how <wbr class="w481"></wbr>sociology fits into <wbr class="w480 w960"></wbr>each individual's Hero's Journey. <wbr class="w961 w1799"></wbr>Sustainable Forestry <wbr class="w960"></wbr>1 - <wbr class="w480"></wbr>Fall - Stan <wbr class="w481"></wbr>Vylet <wbr class="w1800"></wbr>Students will conduct a survey of <wbr class="w960"></wbr>the <wbr class="w480 w961 w1799"></wbr>forest resources at SKS. The project will <wbr class="w481"></wbr>include <wbr class="w960"></wbr>field <wbr class="w480"></wbr>survey to <wbr class="w1800"></wbr>identify dominant <wbr class="w961 w1799"></wbr>tree species and <wbr class="w960"></wbr>understory <wbr class="w480"></wbr>vegetation; non-<wbr class="w481"></wbr>native versus native <wbr class="w960"></wbr>species, some <wbr class="w480 w961 w1799"></wbr>wildlife <wbr class="w1800"></wbr>surveys, and mapping of forest <wbr class="w960"></wbr>data. SKS <wbr class="w481"></wbr>will <wbr class="w480"></wbr>work with partners with <wbr class="w961 w1799"></wbr>expertise in <wbr class="w960"></wbr>forest management. <wbr class="w480 w1800"></wbr>Students will present <wbr class="w481"></wbr>maps, <wbr class="w960"></wbr>species <wbr class="w961 w1799"></wbr>identification keys, <wbr class="w480"></wbr>and other data to the SKS <wbr class="w960"></wbr>community. Students will <wbr class="w480 w481 w1800"></wbr>develop <wbr class="w961 w1799"></wbr>and begin a <wbr class="w960"></wbr>management plan for the forest <wbr class="w480"></wbr>resources at SKS. <wbr class="w960"></wbr>Student study <wbr class="w481"></wbr>will <wbr class="w961 w1799"></wbr>also take into <wbr class="w480 w1800"></wbr>consideration <wbr class="w960"></wbr>protecting water quality, preservation <wbr class="w480"></wbr>and/or <wbr class="w1799"></wbr>creation <wbr class="w481 w960 w961"></wbr>of wildlife habitat, the potential for <wbr class="w1800"></wbr>timber <wbr class="w480"></wbr>harvest, and <wbr class="w960"></wbr>possible <wbr class="w1799"></wbr>reforestation of <wbr class="w481 w961"></wbr>formerly <wbr class="w480"></wbr>agricultural use <wbr class="w960"></wbr>land. Field work will include <wbr class="w1800"></wbr>plant/tree-<wbr class="w480 w1799"></wbr>identification <wbr class="w960"></wbr>and <wbr class="w481 w961"></wbr>mapping; and removal of non-native <wbr class="w480"></wbr>invasive <wbr class="w960"></wbr>plant species. <wbr class="w1799"></wbr>Students will <wbr class="w1800"></wbr>present <wbr class="w961"></wbr>a <wbr class="w480 w481"></wbr>management <wbr class="w960"></wbr>plan to the SKS community. Sustainable <wbr class="w480 w1799"></wbr>Forestry 2 - <wbr class="w960"></wbr>Spring - Stan <wbr class="w961"></wbr>Vylet <wbr class="w481"></wbr>Students will <wbr class="w1800"></wbr>develop and <wbr class="w480"></wbr>begin <wbr class="w960"></wbr>implementation <wbr class="w1799"></wbr>of forest management <wbr class="w961"></wbr>practices on <wbr class="w480 w481 w960"></wbr>the forested property on the South <wbr class="w1800"></wbr>Kent <wbr class="w1799"></wbr>School. Field <wbr class="w480 w960"></wbr>work will <wbr class="w961"></wbr>include surveys for flora <wbr class="w481"></wbr>and fauna species <wbr class="w960"></wbr>as <wbr class="w480"></wbr>well as <wbr class="w1799"></wbr>alteration of forest <wbr class="w1800"></wbr>habitat. <wbr class="w961"></wbr>Possible <wbr class="w960"></wbr>projects <wbr class="w480"></wbr>include tree <wbr class="w481"></wbr>cloning of valuable <wbr class="w1799"></wbr>species, <wbr class="w960"></wbr>experimental <wbr class="w480"></wbr>clearing <wbr class="w961"></wbr>and plantings of <wbr class="w1800"></wbr>vegetation, <wbr class="w960"></wbr>and/or <wbr class="w481"></wbr>developing <wbr class="w480 w1799"></wbr>habitat suitable for various bird <wbr class="w960 w961"></wbr>and mammal species of <wbr class="w480"></wbr>concern in the <wbr class="w481"></wbr>state <wbr class="w1800"></wbr>of <wbr class="w960 w1799"></wbr>Connecticut. SKS will work with <wbr class="w480 w961"></wbr>partners with <wbr class="w960"></wbr>expertise in habitat <wbr class="w481"></wbr>management <wbr class="w1799"></wbr>and seek <wbr class="w480"></wbr>funding for <wbr class="w960 w1800"></wbr>projects. <wbr class="w961"></wbr>Students will present their findings to <wbr class="w480"></wbr>the <wbr class="w481 w960"></wbr>SKS <wbr class="w1799"></wbr>community. Watershed <wbr class="w961"></wbr>Management 1 - Fall - <wbr class="w480 w960 w1800"></wbr>MaryAnn Haverstock Working from <wbr class="w481 w1799"></wbr>the Hatch Pond <wbr class="w480 w960 w961"></wbr>Watershed Based Plan finalized in 2014, students will <wbr class="w480 w960 w1800"></wbr>continue <wbr class="w1799"></wbr>to learn <wbr class="w481"></wbr>about <wbr class="w961"></wbr>watershed management, <wbr class="w960"></wbr>discuss <wbr class="w480"></wbr>natural resource assessments <wbr class="w1799"></wbr>and design <wbr class="w481 w960 w961 w1800"></wbr>/implement <wbr class="w480"></wbr>sustainable engineering within their <wbr class="w960"></wbr>campus and Kent <wbr class="w480 w1799"></wbr>community. <wbr class="w481 w961"></wbr>Students will <wbr class="w960"></wbr>collaborate with <wbr class="w1800"></wbr>other classes <wbr class="w480"></wbr>to design and build a <wbr class="w960 w1799"></wbr>hydroponic <wbr class="w961"></wbr>system <wbr class="w481"></wbr>as a <wbr class="w480"></wbr>demonstration of a <wbr class="w960"></wbr>sustainable ecosystem. <wbr class="w1800"></wbr>Students will <wbr class="w480 w1799"></wbr>work <wbr class="w961"></wbr>toward an <wbr class="w481 w960"></wbr>assessment and map of proposed areas <wbr class="w480"></wbr>on campus <wbr class="w960"></wbr>for low <wbr class="w1799"></wbr>impact <wbr class="w961 w1800"></wbr>development <wbr class="w481"></wbr>projects. This <wbr class="w480"></wbr>project will <wbr class="w960"></wbr>support the existing watershed <wbr class="w1799"></wbr>plan <wbr class="w480 w481 w960 w961"></wbr>recommendations.Students will <wbr class="w1800"></wbr>support the local <wbr class="w480 w960"></wbr>Weantinoge Heritage <wbr class="w1799"></wbr>Land <wbr class="w961"></wbr>Trust in <wbr class="w481"></wbr>efforts to design, <wbr class="w960"></wbr>build <wbr class="w480"></wbr>and maintain trails in the Hatch <wbr class="w1800"></wbr>and the <wbr class="w1799"></wbr>nearby <wbr class="w960 w961"></wbr>Mud Pond <wbr class="w480 w481"></wbr>watersheds. Students may visit different <wbr class="w960"></wbr>watersheds <wbr class="w480 w1799"></wbr>throughout the <wbr class="w961"></wbr>semester to <wbr class="w481 w1800"></wbr>investigate <wbr class="w960"></wbr>macro <wbr class="w480"></wbr>invertebrates and gain an <wbr class="w1799"></wbr>understanding of <wbr class="w960"></wbr>natural <wbr class="w480 w961"></wbr>diversity within <wbr class="w481"></wbr>watersheds throughout <wbr class="w1800"></wbr>the <wbr class="w960"></wbr>state. <wbr class="w480 w1799"></wbr>Watershed Management 2 - <wbr class="w961"></wbr>Spring - MaryAnn <wbr class="w481 w960"></wbr>Haverstock <wbr class="w480"></wbr>Working in partnership <wbr class="w1799"></wbr>with the <wbr class="w960 w1800"></wbr>Connecticut DEEP, <wbr class="w480 w961"></wbr>students will monitor <wbr class="w481"></wbr>water quality <wbr class="w960"></wbr>in the Hatch Pond <wbr class="w480 w1799"></wbr>watershed and <wbr class="w961"></wbr>develop/implement <wbr class="w960 w1800"></wbr>plans for improving <wbr class="w480 w481"></wbr>water quality, with a <wbr class="w1799"></wbr>focus on <wbr class="w960"></wbr>water <wbr class="w961"></wbr>resource <wbr class="w480"></wbr>management including flooding and <wbr class="w481 w960 w1800"></wbr>drought. Students <wbr class="w480 w1799"></wbr>will take samples <wbr class="w961"></wbr>from Hatch <wbr class="w960"></wbr>Ponds and conduct <wbr class="w480"></wbr>macroinvertebrate <wbr class="w481"></wbr>surveys <wbr class="w960 w1799"></wbr>throughout <wbr class="w1800"></wbr>the Hatch <wbr class="w961"></wbr>Pond <wbr class="w480"></wbr>tributaries. Students will <wbr class="w960"></wbr>develop proposals for <wbr class="w480 w481 w1799"></wbr>management of aquatic <wbr class="w961"></wbr>plants <wbr class="w960"></wbr>species and <wbr class="w1800"></wbr>also work to <wbr class="w480"></wbr>manage water <wbr class="w1799"></wbr>resources <wbr class="w481 w960"></wbr>including flooding and <wbr class="w961"></wbr>drought. <wbr class="w480"></wbr>Students will present <wbr class="w960"></wbr>their findings to <wbr class="w1799 w1800"></wbr>the SKS <wbr class="w481"></wbr>community. <wbr class="w480"></wbr>Wetlands <wbr class="w960 w961"></wbr>Restoration and Low Impact Development - Fall <wbr class="w480"></wbr>- <wbr class="w960 w1799"></wbr>Jesse Brennan <wbr class="w481"></wbr>Working <wbr class="w1800"></wbr>under <wbr class="w961"></wbr>the guide of the <wbr class="w480 w960"></wbr>Watershed Management Plan, <wbr class="w1799"></wbr>students will work to <wbr class="w480 w481 w960"></wbr>restore the <wbr class="w961"></wbr>waterways and <wbr class="w1800"></wbr>wetlands around campus <wbr class="w960"></wbr>by <wbr class="w480 w1799"></wbr>removing unnatural waterway <wbr class="w481 w961"></wbr>obstructions, <wbr class="w960"></wbr>invasive <wbr class="w480"></wbr>species, and <wbr class="w1799 w1800"></wbr>environmentally harmful <wbr class="w960"></wbr>materials. As well, <wbr class="w480 w961"></wbr>the <wbr class="w481"></wbr>class will look at ways to <wbr class="w960 w1799"></wbr>minimize the overall effects <wbr class="w480"></wbr>of <wbr class="w1800"></wbr>campus development <wbr class="w960 w961"></wbr>on the <wbr class="w481"></wbr>local watershed, <wbr class="w1799"></wbr>including <wbr class="w480"></wbr>possible ways to <wbr class="w960"></wbr>improve current developments. <wbr class="w480 w481 w961 w1800"></wbr>Sustainable <wbr class="w960 w1799"></wbr>Agriculture -Fall and Spring - Tonya Taylor & <wbr class="w480"></wbr>Kasey <wbr class="w960"></wbr>Clark - Open to All <wbr class="w481 w961"></wbr>Forms <wbr class="w1799"></wbr>Students will be <wbr class="w480 w1800"></wbr>introduced <wbr class="w960"></wbr>to the principles, concepts and methods of <wbr class="w480 w481 w960 w961 w1799"></wbr>sustainable agriculture in New England. Through <wbr class="w960 w1800"></wbr>hands-<wbr class="w480"></wbr>on labor, students will <wbr class="w961 w1799"></wbr>learn to <wbr class="w481"></wbr>grow and tend a <wbr class="w960"></wbr>vegetable <wbr class="w480"></wbr>garden, raise and care for livestock and how <wbr class="w960 w1799 w1800"></wbr>to <wbr class="w961"></wbr>prepare <wbr class="w480"></wbr>and <wbr class="w481"></wbr>preserve the harvest. Students will be <wbr class="w960"></wbr>responsible for <wbr class="w480"></wbr>tracking <wbr class="w1799"></wbr>farm <wbr class="w961"></wbr>data, including <wbr class="w481"></wbr>labor <wbr class="w960 w1800"></wbr>inputs and production <wbr class="w480"></wbr>totals, to create a summary of <wbr class="w960 w1799"></wbr>farm <wbr class="w961"></wbr>productivity that can <wbr class="w480 w481"></wbr>be archived and presented <wbr class="w960 w1800"></wbr>each term. Students will <wbr class="w1799"></wbr>also <wbr class="w480 w961"></wbr>engage in active <wbr class="w960"></wbr>discussions <wbr class="w481"></wbr>about the wider issues of <wbr class="w480"></wbr>sustainability, <wbr class="w960 w1799 w1800"></wbr>including <wbr class="w961"></wbr>food security, climate change, <wbr class="w480 w481"></wbr>resource <wbr class="w960"></wbr>conservation and self-reliance. <wbr class="w961 w1799"></wbr>Sustainable <wbr class="w480 w960"></wbr>Technology <wbr class="w1800"></wbr>Solutions (3rd and <wbr class="w481"></wbr>4th Forms)- Fall and <wbr class="w480 w960"></wbr>Spring Anthony <wbr class="w961 w1799"></wbr>Larson This course will challenge <wbr class="w480 w960"></wbr>students to <wbr class="w481"></wbr>create <wbr class="w1800"></wbr>solutions to the real world <wbr class="w960 w961 w1799"></wbr>requirements <wbr class="w480"></wbr>of sustainability at the Center for <wbr class="w481 w960"></wbr>Innovation. Students <wbr class="w480"></wbr>will develop <wbr class="w961 w1799 w1800"></wbr>solutions using the <wbr class="w960"></wbr>SolidWorks CAD design <wbr class="w480"></wbr>suite and <wbr class="w481"></wbr>build a working <wbr class="w960"></wbr>prototype. <wbr class="w961 w1799"></wbr>Possible applications <wbr class="w480"></wbr>will <wbr class="w1800"></wbr>be farm <wbr class="w960"></wbr>equipment, produce <wbr class="w481"></wbr>cleaning and irrigation. <wbr class="w480 w961 w1799"></wbr>Students <wbr class="w960"></wbr>may also develop &#x201C;lowtech&#x201D; products with <wbr class="w480 w481 w960 w1800"></wbr>applications in third world <wbr class="w961 w1799"></wbr>countries or products for <wbr class="w480 w960"></wbr>&#x201C;farmhack&#x201D;. Automated <wbr class="w481"></wbr>Technology Systems (Now <wbr class="w960"></wbr>part <wbr class="w480 w961 w1799 w1800"></wbr>of Robotics Class)-Spring Anthony Larson - <wbr class="w960"></wbr>Closed at <wbr class="w481"></wbr>this <wbr class="w480"></wbr>time This course will <wbr class="w961 w1799"></wbr>challenge students <wbr class="w960"></wbr>to <wbr class="w1800"></wbr>create <wbr class="w480"></wbr>solutions to the real world <wbr class="w481"></wbr>requirements of <wbr class="w960 w961 w1799"></wbr>sustainability <wbr class="w480"></wbr>at the Center for Innovation. This <wbr class="w960 w1800"></wbr>engineering course will <wbr class="w480 w481"></wbr>focus on <wbr class="w961 w1799"></wbr>defining problems <wbr class="w960"></wbr>that would benefit from <wbr class="w480"></wbr>automated solutions running <wbr class="w481 w960 w1800"></wbr>under <wbr class="w961 w1799"></wbr>computer control. <wbr class="w480"></wbr>Students will develop <wbr class="w960"></wbr>programs and prototype systems to <wbr class="w480 w481 w961 w1799"></wbr>monitor or control <wbr class="w960"></wbr>a <wbr class="w1800"></wbr>process at the Center for Innovation. <wbr class="w480"></wbr>Possible <wbr class="w960"></wbr>applications <wbr class="w961 w1799"></wbr>will be <wbr class="w481"></wbr>farm equipment, produce <wbr class="w480"></wbr>cleaning <wbr class="w960"></wbr>and <wbr class="w1800"></wbr>irrigation. Students may also <wbr class="w961 w1799"></wbr>develop &#x201C;lo <wbr class="w480"></wbr>tech&#x201D; <wbr class="w481 w960"></wbr>products with applications in third world countries. <wbr class="w480 w960 w1800"></wbr>Alternative <wbr class="w961 w1799"></wbr>Energy Solutions- Fall <wbr class="w481"></wbr>and Spring Anthony <wbr class="w480 w960"></wbr>Larson - 5th, 6th, & PG Forms This <wbr class="w961 w1799"></wbr>course will <wbr class="w960 w1800"></wbr>introduce <wbr class="w480"></wbr>various <wbr class="w481"></wbr>clean energy solutions such as wind, <wbr class="w960"></wbr>solar and <wbr class="w480"></wbr>fuel <wbr class="w961 w1799"></wbr>cells. Students will solve real world <wbr class="w481 w960 w1800"></wbr>problems at the <wbr class="w480"></wbr>Center for Innovation <wbr class="w961 w1799"></wbr>including <wbr class="w960"></wbr>transportation, animal <wbr class="w480"></wbr>husbandry, <wbr class="w481"></wbr>greenhouses, <wbr class="w960"></wbr>farming and <wbr class="w1800"></wbr>irrigation. <wbr class="w961 w1799"></wbr>Historic <wbr class="w480"></wbr>Building Technology- <wbr class="w960"></wbr>Fall and Spring <wbr class="w481"></wbr>(Upper Forms) - Dr. <wbr class="w480"></wbr>Jed Struckus <wbr class="w960 w961 w1799"></wbr>Students <wbr class="w1800"></wbr>investigate sustainable building <wbr class="w480"></wbr>trends to <wbr class="w481 w960"></wbr>reduce energy consumption, <wbr class="w961 w1799"></wbr>resource <wbr class="w480"></wbr>consumption <wbr class="w960"></wbr>and waste <wbr class="w1800"></wbr>production. Areas of <wbr class="w480 w481"></wbr>investigation include <wbr class="w960 w961 w1799"></wbr>building techniques, material usage <wbr class="w480"></wbr>and life cycle <wbr class="w960"></wbr>management. <wbr class="w481 w1800"></wbr>Known on <wbr class="w961 w1799"></wbr>campus as the <wbr class="w480"></wbr>&#x201C;timber <wbr class="w960"></wbr>framing class&#x201D;, this course is now in its fourth <wbr class="w480"></wbr>year. <wbr class="w481 w960 w961 w1799"></wbr>Students investigate <wbr class="w1800"></wbr>sustainable building trends <wbr class="w480"></wbr>with <wbr class="w960"></wbr>a particular focus upon <wbr class="w961 w1799"></wbr>reducing <wbr class="w481"></wbr>energy <wbr class="w480"></wbr>consumption, <wbr class="w960"></wbr>using locally <wbr class="w1800"></wbr>available building materials, <wbr class="w480"></wbr>and <wbr class="w960 w961 w1799"></wbr>mastering building <wbr class="w481"></wbr>skills that have existed for <wbr class="w480 w960"></wbr>thousands of years and yet <wbr class="w1800"></wbr>remain <wbr class="w961 w1799"></wbr>the most efficient <wbr class="w960"></wbr>and <wbr class="w480 w481"></wbr>enduring methods of construction. Consistent <wbr class="w960"></wbr>with the <wbr class="w480 w961 w1799"></wbr>&#x201C;Innovation&#x201D; theme, <wbr class="w1800"></wbr>students <wbr class="w481"></wbr>use and master <wbr class="w960"></wbr>tools and <wbr class="w480"></wbr>technologies that span <wbr class="w961 w1799"></wbr>hundreds of years of <wbr class="w960"></wbr>use and <wbr class="w480 w481"></wbr>refinement. The <wbr class="w1800"></wbr>course includes field trips to <wbr class="w960"></wbr>visit <wbr class="w961 w1799"></wbr>national <wbr class="w480"></wbr>leaders in the field, and <wbr class="w481"></wbr>culminates in the <wbr class="w960"></wbr>creation of <wbr class="w480"></wbr>usable <wbr class="w1800"></wbr>structures <wbr class="w1799"></wbr>or <wbr class="w961"></wbr>finished pieces of fine <wbr class="w960"></wbr>furniture. <wbr class="w480 w481"></wbr>Embedded Journalism - Lynn Worthington - <wbr class="w960 w1799"></wbr>5th, <wbr class="w961"></wbr>6th, & PG <wbr class="w480 w1800"></wbr>Forms In this course, <wbr class="w481"></wbr>students create <wbr class="w960"></wbr>multimedia <wbr class="w480"></wbr>packages, <wbr class="w1799"></wbr>learning <wbr class="w961"></wbr>how to produce short <wbr class="w960"></wbr>documentary <wbr class="w480 w481 w1800"></wbr>films (videos) through hands-on <wbr class="w960 w1799"></wbr>experience in <wbr class="w961"></wbr>projects <wbr class="w480"></wbr>related to activities at the Center <wbr class="w481 w960"></wbr>For Innovation. <wbr class="w1800"></wbr>Topics <wbr class="w480 w1799"></wbr>will showcase a <wbr class="w961"></wbr>variety of <wbr class="w960"></wbr>activities that students are <wbr class="w480"></wbr>involved <wbr class="w481"></wbr>in at SKS. Key <wbr class="w960 w1799"></wbr>skills in the course <wbr class="w961"></wbr>will <wbr class="w1800"></wbr>include <wbr class="w480"></wbr>researching <wbr class="w960"></wbr>background issues, <wbr class="w481"></wbr>interviewing, <wbr class="w1799"></wbr>story board <wbr class="w480 w960"></wbr>composition, <wbr class="w961"></wbr>camera work, <wbr class="w1800"></wbr>script/narrative writing, <wbr class="w960"></wbr>oral <wbr class="w480 w481"></wbr>presentation, <wbr class="w1799"></wbr>and video editing. <wbr class="w961"></wbr>Students will also <wbr class="w960"></wbr>learn to <wbr class="w480"></wbr>work as part of <wbr class="w1800"></wbr>production <wbr class="w481"></wbr>teams <wbr class="w1799"></wbr>attached to <wbr class="w960"></wbr>groups <wbr class="w480 w961"></wbr>working on any of the CFI classes running <wbr class="w960"></wbr>concurrently. <wbr class="w480"></wbr>This <wbr class="w481 w1799"></wbr>course is <wbr class="w1800"></wbr>part of all <wbr class="w961"></wbr>three of the CFI <wbr class="w960"></wbr>Spheres: <wbr class="w480"></wbr>Sustainable Earth, Sustainable <wbr class="w1799"></wbr>Design <wbr class="w481"></wbr>and <wbr class="w960"></wbr>Sustainable <wbr class="w480 w961"></wbr>Community. <wbr class="w1800"></wbr>Ceramic Arts - Fall and <wbr class="w960"></wbr>Spring - John Funk & <wbr class="w480 w1799"></wbr>Brendan <wbr class="w481"></wbr>Moore - All <wbr class="w961"></wbr>Forms This <wbr class="w960"></wbr>course is designed for <wbr class="w480 w1800"></wbr>students who have an <wbr class="w1799"></wbr>interest <wbr class="w960"></wbr>in working <wbr class="w481"></wbr>with <wbr class="w961"></wbr>clay. <wbr class="w480"></wbr>Activities will provide a basic <wbr class="w960"></wbr>experience in making <wbr class="w480 w1799 w1800"></wbr>functional as well as <wbr class="w481 w961"></wbr>sculptural <wbr class="w960"></wbr>pieces using a variety of <wbr class="w480"></wbr>techniques. This will <wbr class="w1799"></wbr>include <wbr class="w960"></wbr>hand building <wbr class="w961"></wbr>using <wbr class="w481 w1800"></wbr>pinch <wbr class="w480"></wbr>pot, coil, slab, and wheel <wbr class="w960"></wbr>throwing methods. <wbr class="w1799"></wbr>There will be <wbr class="w480"></wbr>an <wbr class="w961"></wbr>emphasis on the <wbr class="w481 w960"></wbr>elements and principles <wbr class="w1800"></wbr>of three-<wbr class="w480"></wbr>dimensional <wbr class="w1799"></wbr>forms. <wbr class="w960 w961"></wbr>Entrepreneurship &#x2013; Fall and <wbr class="w481"></wbr>Spring &#x2013; <wbr class="w480"></wbr>Scott Farley - <wbr class="w960"></wbr>5th, 6th, & PG Forms <wbr class="w1799"></wbr>This <wbr class="w961 w1800"></wbr>challenge-based <wbr class="w480"></wbr>learning <wbr class="w960"></wbr>course <wbr class="w481"></wbr>explores all aspects of entrepreneurship <wbr class="w480 w960 w961 w1799"></wbr>including generating ideas, <wbr class="w1800"></wbr>analyzing <wbr class="w481"></wbr>economics, <wbr class="w960"></wbr>writing <wbr class="w480"></wbr>a business plan and <wbr class="w961 w1799"></wbr>generating funding. <wbr class="w960"></wbr>Working closely <wbr class="w480"></wbr>with the <wbr class="w481"></wbr>Center for <wbr class="w1800"></wbr>Innovation (CFI,) <wbr class="w960 w1799"></wbr>students <wbr class="w961"></wbr>will generate <wbr class="w480"></wbr>their own ideas or use existing <wbr class="w960"></wbr>ideas <wbr class="w481"></wbr>within the CFI. <wbr class="w480 w1799"></wbr>Through <wbr class="w961 w1800"></wbr>structured assignments, <wbr class="w960"></wbr>case studies and guest <wbr class="w480"></wbr>lectures, <wbr class="w481"></wbr>students will <wbr class="w1799"></wbr>learn <wbr class="w960"></wbr>about <wbr class="w961"></wbr>the innovation process, <wbr class="w480 w1800"></wbr>the fundamentals of a <wbr class="w960"></wbr>business plan, <wbr class="w481"></wbr>and the <wbr class="w1799"></wbr>methods of <wbr class="w480 w961"></wbr>getting funding, <wbr class="w960"></wbr>both traditional and nontraditional. <wbr class="w1800"></wbr>The <wbr class="w480"></wbr>final goal <wbr class="w481"></wbr>of <wbr class="w960 w1799"></wbr>the course is <wbr class="w961"></wbr>a successful presentation to the <wbr class="w480"></wbr>board of <wbr class="w960"></wbr>CFI. Open Source <wbr class="w1799"></wbr>Software <wbr class="w481 w961 w1800"></wbr>Development- Phil <wbr class="w480"></wbr>Darrin <wbr class="w960"></wbr>3rd & 4th Form &#x201C;Here we are, 2013, we ALL <wbr class="w1799"></wbr>depend <wbr class="w480"></wbr>on <wbr class="w481 w960 w961"></wbr>technology to communicate, <wbr class="w1800"></wbr>to bank, and none of us <wbr class="w480 w960"></wbr>know how to <wbr class="w1799"></wbr>read and write <wbr class="w481 w961"></wbr>code.&#x201D; - <a href="http://will.i.am">will.i.am</a>, Musician <wbr class="w480 w960"></wbr>Black Eyed Peas&#x201C;Our policy <wbr class="w1800"></wbr>at <wbr class="w1799"></wbr>Facebook is literally to <wbr class="w960 w961"></wbr>hire <wbr class="w480 w481"></wbr>as many talented engineers as we can find. There <wbr class="w960 w1799"></wbr>just <wbr class="w480"></wbr>aren't enough people <wbr class="w961 w1800"></wbr>who are <wbr class="w481"></wbr>trained and have <wbr class="w960"></wbr>these <wbr class="w480"></wbr>skills today.&#x201D; - Mark <wbr class="w1799"></wbr>Zuckerberg, Facebook <wbr class="w960 w961"></wbr>Founder <wbr class="w480"></wbr>According to <wbr class="w481"></wbr><a href="http://Code.org">Code.org</a>, <wbr class="w1800"></wbr>by 2020 there will be <wbr class="w960 w1799"></wbr>1,000,000 <wbr class="w480"></wbr>more coding jobs <wbr class="w961"></wbr>than students who <wbr class="w481 w960"></wbr>understand code. <wbr class="w480"></wbr>Students <wbr class="w1799"></wbr>enrolled in <wbr class="w1800"></wbr>the OSSD <wbr class="w960"></wbr>course will <wbr class="w961"></wbr>learn the coding <wbr class="w480"></wbr>language <wbr class="w481"></wbr>Python. The <wbr class="w960"></wbr>OSSD <wbr class="w1799"></wbr>course requires no previous <wbr class="w480"></wbr>coding <wbr class="w961 w1800"></wbr>experience, <wbr class="w960"></wbr>and is almost <wbr class="w481"></wbr>entirely self-paced. <wbr class="w480 w1799"></wbr>Additionally, OSSD <wbr class="w960"></wbr>students may <wbr class="w961"></wbr>build their very own <wbr class="w480 w1800"></wbr>computer <wbr class="w481"></wbr>called the <wbr class="w960 w1799"></wbr>Raspberry Pi ($200 Fee). Finally, <wbr class="w480"></wbr>OSSD <wbr class="w961"></wbr>may also <wbr class="w960"></wbr>create a social site for high <wbr class="w481 w1799"></wbr>school <wbr class="w480 w1800"></wbr>students call <wbr class="w960"></wbr><a href="http://HighSchoolPortfolio.com">HighSchoolPortfoli..</a>. <wbr class="w961"></wbr>Creative, self-<wbr class="w480"></wbr>motivated, team-<wbr class="w960"></wbr>players <wbr class="w1799"></wbr>are <wbr class="w481"></wbr>welcomed to join. Watershed <wbr class="w480 w960 w961 w1800"></wbr>Management: Biological Indicators, <wbr class="w1799"></wbr>Improvement, and <wbr class="w480 w481 w960"></wbr>Sustainability - Will Morse - <wbr class="w961"></wbr>3rd & 4th Form America <wbr class="w480 w960 w1799 w1800"></wbr>possesses a variety of water <wbr class="w481"></wbr>resources. There is much <wbr class="w480 w960 w961"></wbr>debate over how these <wbr class="w1799"></wbr>resources should be, and are, <wbr class="w480 w481 w960 w1800"></wbr>managed; especially in an <wbr class="w961"></wbr>era of climate change <wbr class="w1799"></wbr>and <wbr class="w960"></wbr>the <wbr class="w480"></wbr>problem of clean water and <wbr class="w481"></wbr>worldwide availability. <wbr class="w960 w961 w1800"></wbr>Public <wbr class="w480"></wbr>lands, national <wbr class="w1799"></wbr>parks, and other designated <wbr class="w960"></wbr>areas hold a <wbr class="w480 w481"></wbr>large majority of <wbr class="w961"></wbr>these natural <wbr class="w1799"></wbr>resources. <wbr class="w960 w1800"></wbr>From the water <wbr class="w480"></wbr>supplies of the Catskills, to <wbr class="w481"></wbr>the oil <wbr class="w960 w961"></wbr>fisheries of Alaska, <wbr class="w480 w1799"></wbr>management practices are diverse <wbr class="w960 w1800"></wbr>and complex. This <wbr class="w480"></wbr>course <wbr class="w481 w961"></wbr>looks into the <wbr class="w1799"></wbr>economic and <wbr class="w960"></wbr>deep geological <wbr class="w480"></wbr>reasons and debates over <wbr class="w960 w961 w1800"></wbr>management <wbr class="w481 w1799"></wbr>practices, with <wbr class="w480"></wbr>particular focus on <wbr class="w960"></wbr>watersheds and their use as <wbr class="w480 w961"></wbr>indicators of <wbr class="w1799"></wbr>climate <wbr class="w481 w960"></wbr>change. <wbr class="w1800"></wbr>After looking at these <wbr class="w480"></wbr>indicators, Students will <wbr class="w960 w961"></wbr>ultimately be <wbr class="w1799"></wbr>asked how we <wbr class="w480 w481"></wbr>should use our water <wbr class="w960"></wbr>resources <wbr class="w1800"></wbr>in the future to <wbr class="w961"></wbr>promote <wbr class="w480 w1799"></wbr>sustainable <wbr class="w960"></wbr>development, <wbr class="w481"></wbr>energy use, sustainable <wbr class="w480"></wbr>fisheries, and <wbr class="w960 w961"></wbr>maximize <wbr class="w1799"></wbr>available <wbr class="w1800"></wbr>water for global <wbr class="w480"></wbr>distribution. <wbr class="w481"></wbr>Near <wbr class="w960"></wbr>Space Balloon Launch &#x2013; <wbr class="w961"></wbr>Fall &#x2013; Mark <wbr class="w480 w1799"></wbr>Berghold (Third <wbr class="w960"></wbr>and Fourth Forms) <wbr class="w1800"></wbr>The <wbr class="w481"></wbr>objective of this <wbr class="w480"></wbr>CFI class is <wbr class="w961"></wbr>to <wbr class="w960"></wbr>prepare, <wbr class="w1799"></wbr>launch into Near Space, and <wbr class="w480"></wbr>retrieve a <wbr class="w960"></wbr>weather <wbr class="w481"></wbr>balloon with an <wbr class="w1800"></wbr>on-<wbr class="w961"></wbr>board flight <wbr class="w480 w1799"></wbr>computer and <wbr class="w960"></wbr>cameras.Students will be responsible for <wbr class="w480 w481"></wbr>building the <wbr class="w960 w961"></wbr>payload <wbr class="w1799"></wbr>frame, <wbr class="w1800"></wbr>configuring the flight <wbr class="w480"></wbr>computer to <wbr class="w960"></wbr>record data (temperature, <wbr class="w481 w961"></wbr>pressure, <wbr class="w1799"></wbr>GPS data, <wbr class="w480"></wbr>etc.), <wbr class="w960"></wbr>recording video from <wbr class="w1800"></wbr>two on-board GoPros, <wbr class="w480"></wbr>predicting <wbr class="w960 w961"></wbr>the <wbr class="w481"></wbr>flight <wbr class="w1799"></wbr>path, filing a NOTAM (NOtice to <wbr class="w480"></wbr>AirMen) with <wbr class="w960"></wbr>the FAA to obtain <wbr class="w1800"></wbr>approval <wbr class="w961"></wbr>for the <wbr class="w481 w1799"></wbr>flight, <wbr class="w480"></wbr>coordinating <wbr class="w960"></wbr>the successful recovery of the payload, and <wbr class="w480"></wbr>analyzing <wbr class="w960 w961 w1799"></wbr>recorded <wbr class="w481"></wbr>flight <wbr class="w1800"></wbr>data. The goal is to reach an <wbr class="w480"></wbr>altitude of <wbr class="w960"></wbr>90,000 feet AND have a <wbr class="w961 w1799"></wbr>successful <wbr class="w481"></wbr>recovery of <wbr class="w480"></wbr>the <wbr class="w960"></wbr>airframe and <wbr class="w1800"></wbr>collected data. No experience is <wbr class="w480 w960 w961 w1799"></wbr>necessary. Specific <wbr class="w481"></wbr>&#x201C;mission assignments&#x201D; (Electronic <wbr class="w480 w960"></wbr>Systems Operator, <wbr class="w1800"></wbr>Flight <wbr class="w961 w1799"></wbr>Trajectory Officer, et al.) <wbr class="w481"></wbr>will <wbr class="w960"></wbr>be <wbr class="w480"></wbr>determined early in the course. Mars Rover <wbr class="w960 w961 w1799"></wbr>Robotics <wbr class="w480"></wbr>Competition &#x2013; <wbr class="w1800"></wbr>Fall &#x2013; Mark <wbr class="w481"></wbr>Berghold (Third <wbr class="w960"></wbr>and Fourth <wbr class="w480"></wbr>Forms) Pairs of <wbr class="w961 w1799"></wbr>students will build several <wbr class="w960"></wbr>remote-<wbr class="w480 w481"></wbr>controlled robots <wbr class="w1800"></wbr>to compete in a &#x201C;Mars <wbr class="w1799"></wbr>Rover&#x201D; <wbr class="w480 w960 w961"></wbr>competition at the end of the Fall Term. <wbr class="w481"></wbr>Teams&#x2019; robots <wbr class="w480 w960"></wbr>will race against <wbr class="w1799"></wbr>each <wbr class="w961 w1800"></wbr>other to complete specific tasks <wbr class="w960"></wbr>on <wbr class="w480"></wbr>a simulated <wbr class="w481"></wbr>martian terrain. Students <wbr class="w1799"></wbr>may <wbr class="w960 w961"></wbr>encounter <wbr class="w480"></wbr>&#x201C;alien&#x201D; life forms <wbr class="w1800"></wbr>and additional obstacles <wbr class="w481 w960"></wbr>during the <wbr class="w480"></wbr>course of <wbr class="w1799"></wbr>their <wbr class="w961"></wbr>mission. The ability to work <wbr class="w960"></wbr>well on a <wbr class="w480"></wbr>team, patience, <wbr class="w1800"></wbr>and a <wbr class="w481"></wbr>good sense of <wbr class="w1799"></wbr>humor <wbr class="w960 w961"></wbr>will be <wbr class="w480"></wbr>valuable assets for this exercise. No prior <wbr class="w960"></wbr>robotics <wbr class="w480 w481"></wbr>experience is <wbr class="w1799 w1800"></wbr>necessary. <wbr class="w961"></wbr>Students not directly <wbr class="w960"></wbr>involved in <wbr class="w480"></wbr>the construction of a robot <wbr class="w481"></wbr>will assist <wbr class="w1799"></wbr>with <wbr class="w960"></wbr>the <wbr class="w480 w961"></wbr>construction of <wbr class="w1800"></wbr>the competition playing field and <wbr class="w960"></wbr>its <wbr class="w480"></wbr>obstacles. <wbr class="w481"></wbr>Electric <wbr class="w1799"></wbr>Car &#x2013; Fall <wbr class="w961"></wbr>&#x2013; Mark Berghold <wbr class="w960"></wbr>(Fifth and <wbr class="w480"></wbr>Sixth Forms) <wbr class="w1800"></wbr>Students will complete the <wbr class="w481 w960 w1799"></wbr>construction <wbr class="w961"></wbr>of <wbr class="w480"></wbr>an Electric Car by end of term. <wbr class="w960"></wbr>Students will evaluate both <wbr class="w480"></wbr>the <wbr class="w1799 w1800"></wbr>benefits <wbr class="w481"></wbr>as well <wbr class="w961"></wbr>as the <wbr class="w960"></wbr>obstacles (economic, political, <wbr class="w480"></wbr>and practical) to the <wbr class="w960 w1799"></wbr>widespread adoption <wbr class="w481"></wbr>of <wbr class="w961"></wbr>electric <wbr class="w480 w1800"></wbr>vehicles. The project <wbr class="w960"></wbr>will conclude with an on <wbr class="w1799"></wbr>campus <wbr class="w480"></wbr>&#x201C;drag race&#x201D;/speed <wbr class="w481 w960 w961"></wbr>test. Water Purification Challenge <wbr class="w1800"></wbr>&#x2013; <wbr class="w480"></wbr>Fall &#x2013; Mark <wbr class="w960 w1799"></wbr>Berghold (Fifth and Sixth Forms) <wbr class="w481 w961"></wbr>Enteric and <wbr class="w480"></wbr>diarrheal <wbr class="w960"></wbr>diseases are the second-<wbr class="w1799"></wbr>leading cause <wbr class="w1800"></wbr>of child <wbr class="w480 w960"></wbr>mortality, <wbr class="w961"></wbr>killing <wbr class="w481"></wbr>almost 1.7 million children. In India <wbr class="w480 w960"></wbr>alone, <wbr class="w1799"></wbr>over 4,000 children succumb <wbr class="w961"></wbr>daily to <wbr class="w1800"></wbr>enteric <wbr class="w481 w960"></wbr>and <wbr class="w480"></wbr>diarrheal diseases. While this <wbr class="w1799"></wbr>number has been <wbr class="w960"></wbr>dropping <wbr class="w480"></wbr>in <wbr class="w961"></wbr>recent years, more can <wbr class="w481"></wbr>be done <wbr class="w1800"></wbr>through <wbr class="w960"></wbr>(1) <wbr class="w480 w1799"></wbr>access/delivery of vaccines, (2) the <wbr class="w961"></wbr>adoption of <wbr class="w960"></wbr>more <wbr class="w480"></wbr>effective <wbr class="w481"></wbr>nutritional <wbr class="w1799"></wbr>practices, and (3) <wbr class="w1800"></wbr>improved <wbr class="w960"></wbr>water, <wbr class="w480 w961"></wbr>sanitation, and hygiene systems. The <wbr class="w481"></wbr>task of <wbr class="w960 w1799"></wbr>this course <wbr class="w480"></wbr>is to explore and develop <wbr class="w961 w1800"></wbr>prototypes to <wbr class="w960"></wbr>address this last <wbr class="w480"></wbr>category. <wbr class="w481 w1799"></wbr>Two to three teams will be <wbr class="w960"></wbr>given a <wbr class="w961"></wbr>modest <wbr class="w480"></wbr>budget with which to <wbr class="w1800"></wbr>develop an <wbr class="w481 w960 w1799"></wbr>inexpensive, portable <wbr class="w480"></wbr>and effective water <wbr class="w961"></wbr>purification <wbr class="w960"></wbr>system. Final designs will <wbr class="w480 w1799"></wbr>be <wbr class="w481"></wbr>pitched <wbr class="w1800"></wbr>&#x201C;Shark Tank&#x201D; <wbr class="w960"></wbr>style to a small <wbr class="w961"></wbr>group of CFI <wbr class="w480"></wbr>faculty for assessment. <wbr class="w960 w1799"></wbr>Students <wbr class="w481"></wbr>will be encouraged to <wbr class="w480"></wbr>use any <wbr class="w961 w1800"></wbr>recyclable <wbr class="w960"></wbr>material they might find on <wbr class="w1799"></wbr>campus <wbr class="w480"></wbr>and to <wbr class="w481"></wbr>make <wbr class="w960"></wbr>some use of the <wbr class="w961"></wbr>School&#x2019;s 3-D <wbr class="w480"></wbr>printers/carving <wbr class="w960 w1800"></wbr>machine. <wbr class="w1799"></wbr>Final pitches will be <wbr class="w481"></wbr>evaluated <wbr class="w480"></wbr>on several <wbr class="w960 w961"></wbr>criteria including, but not limited to, the <wbr class="w1799"></wbr>unit&#x2019;s <wbr class="w480"></wbr>cost, <wbr class="w960 w1800"></wbr>efficiency, <wbr class="w481"></wbr>business plan, <wbr class="w961"></wbr>marketing plan and each <wbr class="w480 w960"></wbr>team&#x2019;s <wbr class="w1799"></wbr>demonstrated understanding of their <wbr class="w481"></wbr>product <wbr class="w960"></wbr>and <wbr class="w480 w961 w1800"></wbr>strategy. Methane BioDigester <wbr class="w1799"></wbr>&#x2013; Fall &#x2013; Mark <wbr class="w960"></wbr>Berghold <wbr class="w480"></wbr>(Fifth and Sixth <wbr class="w481"></wbr>Forms) <wbr class="w961"></wbr>Methane is a <wbr class="w960"></wbr>flammable gas <wbr class="w1800"></wbr>that <wbr class="w480 w1799"></wbr>can come from both natural and <wbr class="w960"></wbr>manmade <wbr class="w481 w961"></wbr>sources. <wbr class="w480"></wbr>Because of it its <wbr class="w1799"></wbr>effectiveness in <wbr class="w960"></wbr>absorbing heat in <wbr class="w1800"></wbr>the <wbr class="w480"></wbr>atmosphere, it is <wbr class="w481 w961"></wbr>initially more <wbr class="w960"></wbr>devastating <wbr class="w1799"></wbr>than CO2. Our <wbr class="w480"></wbr>primary goal will be to <wbr class="w960"></wbr>manufacture a <wbr class="w961"></wbr>small <wbr class="w481 w1800"></wbr>quantity of <wbr class="w480"></wbr>methane <wbr class="w1799"></wbr>through the <wbr class="w960"></wbr>same process that is used to <wbr class="w480"></wbr>produce beer <wbr class="w961"></wbr>(controlled <wbr class="w481 w960 w1799"></wbr>fermentation). <wbr class="w1800"></wbr>Students will <wbr class="w480"></wbr>develop small-scale <wbr class="w960"></wbr>prototype methane <wbr class="w961"></wbr>digesters. <wbr class="w480 w481 w1799"></wbr>Prototypes will be built <wbr class="w960"></wbr>in the Innovation <wbr class="w1800"></wbr>and <wbr class="w480"></wbr>Sustainability Lab and <wbr class="w961"></wbr>tested at <wbr class="w960"></wbr>the <wbr class="w481 w1799"></wbr>Center for Innovation. <wbr class="w480"></wbr>The ultimate goal (Spring <wbr class="w960"></wbr>2016) will be to <wbr class="w961 w1800"></wbr>provide an <wbr class="w480 w1799"></wbr>effective <wbr class="w481"></wbr>model for a larger <wbr class="w960"></wbr>scale system. This system <wbr class="w480"></wbr>would then heat <wbr class="w961"></wbr>the <wbr class="w960 w1799"></wbr>School&#x2019;s greenhouse <wbr class="w481 w1800"></wbr>during the <wbr class="w480"></wbr>winter months and <wbr class="w960"></wbr>allow us to extend our <wbr class="w961 w1799"></wbr>growing <wbr class="w480"></wbr>season. The Oral <wbr class="w960"></wbr>History <wbr class="w481"></wbr>of Kent - Mr. Pfeffer <wbr class="w1800"></wbr>The town of <wbr class="w480"></wbr>Kent, in <wbr class="w960 w961 w1799"></wbr>conjunction with South Kent School, <wbr class="w481"></wbr>possesses a <wbr class="w480"></wbr>rich <wbr class="w960"></wbr>history that deserves to be <wbr class="w961 w1799"></wbr>heard <wbr class="w1800"></wbr>and preserved. In <wbr class="w480"></wbr>The <wbr class="w960"></wbr>Oral History of <wbr class="w481"></wbr>Kent class, students will conduct <wbr class="w480 w960 w961 w1799"></wbr>interviews with either longtime local <wbr class="w1800"></wbr>residents of Kent <wbr class="w481 w960"></wbr>or <wbr class="w480"></wbr>key alumni of South <wbr class="w1799"></wbr>Kent <wbr class="w961"></wbr>School. Students in this <wbr class="w960"></wbr>class <wbr class="w480"></wbr>will gain valuable skills in <wbr class="w481 w1800"></wbr>interpersonal <wbr class="w960 w961 w1799"></wbr>communication, <wbr class="w480"></wbr>writing, editing, designing and more. <wbr class="w960"></wbr>Students who enjoy <wbr class="w480 w481 w961 w1799"></wbr>socializing, <wbr class="w1800"></wbr>networking and <wbr class="w960"></wbr>making connections, history, <wbr class="w480"></wbr>and language arts will <wbr class="w960 w961 w1799"></wbr>benefit <wbr class="w481"></wbr>from this course.Through <wbr class="w480"></wbr>the <wbr class="w1800"></wbr>oral history given <wbr class="w960"></wbr>by the interviewees, <wbr class="w961 w1799"></wbr>students will <wbr class="w480"></wbr>first <wbr class="w481"></wbr>have the <wbr class="w960"></wbr>privilege of learning about Kent&#x2019;s past <wbr class="w480 w1800"></wbr>through first-<wbr class="w960 w961 w1799"></wbr>person accounts; they will <wbr class="w481"></wbr>then transcribe <wbr class="w480"></wbr>and compile <wbr class="w960"></wbr>their interviews into a <wbr class="w961 w1799"></wbr>pamphlet to be <wbr class="w1800"></wbr>made <wbr class="w480"></wbr>available <wbr class="w960"></wbr>for <wbr class="w481"></wbr>the South Kent community to read and <wbr class="w480"></wbr>enjoy. <wbr class="w960 w961 w1799"></wbr>Students involved will be personally <wbr class="w481 w1800"></wbr>credited on the <wbr class="w480 w960"></wbr>published work. Mindfulness <wbr class="w1799"></wbr>- <wbr class="w961"></wbr>Mr. Beer Mindful self-<wbr class="w480 w960"></wbr>inquiry is designed <wbr class="w481"></wbr>for students to <wbr class="w1800"></wbr>investigate the <wbr class="w960"></wbr>concept <wbr class="w480 w961 w1799"></wbr>and applications of mindfulness, and to <wbr class="w481 w960"></wbr>investigate into <wbr class="w480"></wbr>the nature of their own <wbr class="w961 w1799 w1800"></wbr>mind and <wbr class="w960"></wbr>being. My intention for <wbr class="w480"></wbr>the course is <wbr class="w481"></wbr>for students to <wbr class="w960"></wbr>develop an <wbr class="w961 w1799"></wbr>understanding of <wbr class="w480"></wbr>mindfulness as a <wbr class="w1800"></wbr>way of <wbr class="w960"></wbr>reducing stress <wbr class="w481"></wbr>in their lives as <wbr class="w480"></wbr>well <wbr class="w961 w1799"></wbr>enhance their <wbr class="w960"></wbr>educational achievement. The <wbr class="w480"></wbr>curriculum of this <wbr class="w481 w960 w1800"></wbr>course includes: <wbr class="w961 w1799"></wbr>focused attention on <wbr class="w480"></wbr>breath and <wbr class="w960"></wbr>sensory experiences; awareness of <wbr class="w481"></wbr>thoughts <wbr class="w480 w1799"></wbr>and <wbr class="w960 w961 w1800"></wbr>emotions; movement practices; caring or kindness <wbr class="w480 w960"></wbr>practices; and <wbr class="w481"></wbr>ongoing <wbr class="w1799"></wbr>critique <wbr class="w961"></wbr>of mindfulness for <wbr class="w960 w1800"></wbr>stress <wbr class="w480"></wbr>reduction in student life. Students learn the <wbr class="w481 w960 w1799"></wbr>skills over <wbr class="w480 w961"></wbr>time, and the intention is that, through <wbr class="w960 w1800"></wbr>sustained practice, <wbr class="w480"></wbr>mindful <wbr class="w481 w1799"></wbr>awareness <wbr class="w961"></wbr>becomes a <wbr class="w960"></wbr>positive way for students <wbr class="w480"></wbr>to enhance social and <wbr class="w960 w1799 w1800"></wbr>emotional <wbr class="w481"></wbr>learning, <wbr class="w961"></wbr>strengthen <wbr class="w480"></wbr>attention and <wbr class="w960"></wbr>concentration for academics and <wbr class="w1799"></wbr>personal <wbr class="w480 w481 w960"></wbr>relationships, <wbr class="w961"></wbr>and <wbr class="w1800"></wbr>foster a student&#x2019;s overall well-<wbr class="w480 w960"></wbr>being.Students will <wbr class="w1799"></wbr>participate in a <wbr class="w481"></wbr>progression <wbr class="w961"></wbr>of <wbr class="w960"></wbr>classes <wbr class="w480"></wbr>to explore three <wbr class="w1800"></wbr>primary mindfulness-<wbr class="w1799"></wbr>based <wbr class="w960"></wbr>stress <wbr class="w480"></wbr>reduction <wbr class="w481 w961"></wbr>meditation exercises: sitting <wbr class="w960"></wbr>meditation; body-<wbr class="w480"></wbr>scan; and <wbr class="w1799"></wbr>yoga, <wbr class="w1800"></wbr>which encourage <wbr class="w960 w961"></wbr>non-<wbr class="w481"></wbr>judgemental <wbr class="w480"></wbr>observation and acceptance of <wbr class="w960"></wbr>bodily <wbr class="w1799"></wbr>sensations, <wbr class="w480"></wbr>cognitions, <wbr class="w961"></wbr>emotional <wbr class="w481 w1800"></wbr>states. The <wbr class="w960"></wbr>exercises will be useful <wbr class="w480"></wbr>for <wbr class="w1799"></wbr>students in reframing <wbr class="w960"></wbr>certain <wbr class="w961"></wbr>approaches to <wbr class="w481"></wbr>their <wbr class="w480"></wbr>academic and <wbr class="w1800"></wbr>social life. <wbr class="w960 w1799"></wbr>Furthermore, students&#x2019; <wbr class="w480"></wbr>experience in <wbr class="w961"></wbr>cultivating their <wbr class="w481 w960"></wbr>personal practice will be <wbr class="w480 w1799"></wbr>enriched through <wbr class="w1800"></wbr>weekly <wbr class="w960"></wbr>discussions <wbr class="w961"></wbr>and critiques with <wbr class="w480"></wbr>other <wbr class="w481"></wbr>students in the <wbr class="w960 w1799"></wbr>course. Architecture - Mr. Chavka <wbr class="w480"></wbr>This is <wbr class="w961"></wbr>an <wbr class="w1800"></wbr>advanced <wbr class="w960"></wbr>course open to <wbr class="w481"></wbr>5th, 6th <wbr class="w1799"></wbr>and PG&#x2019;s that <wbr class="w480"></wbr>concentrates on <wbr class="w960"></wbr>the field of <wbr class="w961"></wbr>architectural design. Students <wbr class="w480 w1800"></wbr>will <wbr class="w481 w960 w1799"></wbr>incorporate the elements and principles of <wbr class="w961"></wbr>design, <wbr class="w480 w960"></wbr>architectural styles and post <wbr class="w1799"></wbr>and <wbr class="w481"></wbr>beam construction <wbr class="w1800"></wbr>to <wbr class="w480 w960"></wbr>create a multiuse <wbr class="w961"></wbr>building at the Center For <wbr class="w960 w1799"></wbr>Innovation. <wbr class="w480"></wbr>Green <wbr class="w481"></wbr>and sustainable building <wbr class="w960 w961"></wbr>technologies will <wbr class="w1800"></wbr>be <wbr class="w480"></wbr>investigated and <wbr class="w1799"></wbr>their use <wbr class="w960"></wbr>emphasized. <wbr class="w481"></wbr>Assignments <wbr class="w480"></wbr>include <wbr class="w961"></wbr>gathering customer <wbr class="w960"></wbr>inventory and <wbr class="w1799"></wbr>analysis, <wbr class="w480 w1800"></wbr>developing <wbr class="w481"></wbr>architectural <wbr class="w960"></wbr>design <wbr class="w961"></wbr>documents, conceptual <wbr class="w480"></wbr>design <wbr class="w1799"></wbr>drawings, floor <wbr class="w960"></wbr>plans, elevation <wbr class="w481"></wbr>drawings, <wbr class="w1800"></wbr>detail <wbr class="w480 w961"></wbr>drawings, renderings <wbr class="w960"></wbr>and <wbr class="w1799"></wbr>models. Students will use the <wbr class="w480"></wbr>SolidWorks <wbr class="w481"></wbr>and <wbr class="w960"></wbr>Chief <wbr class="w961"></wbr>Architect CAD package.</p></div><div kind="decoration" index="leader" class="decoration leader decoration leader" id="u-1e98afa5-ec94-4d2f-b19d-a63f8d2972ca-g-figure-d-leader"></div></div></article><section kind="layout" style="position: relative" sequence="one" role="feed" diff_index="0" index="one" class="layout one i first_layout last_layout w_paragraph w_text w_separator w_decoration w_leader w_trailer w_long_paragraph w_long_text layout one" id="u-c5d82011-72f6-413b-ab52-94253f644d0e-desktop-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_texts layout one i first_layout last_layout feed layout one" id="u-c5d82011-72f6-413b-ab52-94253f644d0e-desktop-l-one-l-one"></div><style id="u-c5d82011-72f6-413b-ab52-94253f644d0e-color">body{background-color: rgba(189, 0, 53, 1)}</style></section><section kind="layout" style="position: relative" sequence="one" role="feed" diff_index="0" index="one" class="layout one i first_layout last_layout w_paragraph w_text w_separator w_decoration w_leader w_trailer w_long_paragraph w_long_text layout one" id="u-c5d82011-72f6-413b-ab52-94253f644d0e-cinema-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_texts layout one i first_layout last_layout feed layout one" id="u-c5d82011-72f6-413b-ab52-94253f644d0e-cinema-l-one-l-one"></div><style id="u-c5d82011-72f6-413b-ab52-94253f644d0e-color">body{background-color: rgba(189, 0, 53, 1)}</style></section></div><script src="//s3-us-west-2.amazonaws.com/cdn.thegrid.io/design-systems/pipeline/0.19.8/client.js"></script><script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script><script id="web-font-loader">if (window.WebFont) 
+  WebFont.load({"google":{"families":["Roboto:400,700","Roboto:400,400italic,700,700italic"]},active: function() { 
+  if (window.parent.params) {
+    window.parent.params.console.pop();
+    window.parent.params.console.push('fonts+' + document.readyState);
+  }
+  setTimeout(function() {
+    if (window.engine) {
+      if (window.parent.params) {
+        window.parent.params.console.pop();
+        window.parent.params.console.push('fonts');
+      }
+      document.documentElement.classList.remove('wf-loading')
+      document.documentElement.classList.add('wf-active')
+      window.engine.triggerEvent("interactive")
+    } else {
+      document.documentElement.classList.remove('wf-loading')
+      document.documentElement.classList.add('wf-active')
+    }
+  }, window.callPhantom && 1000 || 300) // let phantom catch up
+},timeout: 25000,classes: false});</script></body></html>
